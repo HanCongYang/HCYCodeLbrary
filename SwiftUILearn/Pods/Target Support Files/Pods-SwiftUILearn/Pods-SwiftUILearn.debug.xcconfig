@@ -1,0 +1,14 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/BlueCryptor" "${PODS_CONFIGURATION_BUILD_DIR}/BlueRSA" "${PODS_CONFIGURATION_BUILD_DIR}/ElastosDIDSDK" "${PODS_CONFIGURATION_BUILD_DIR}/KituraContracts" "${PODS_CONFIGURATION_BUILD_DIR}/LoggerAPI" "${PODS_CONFIGURATION_BUILD_DIR}/Logging" "${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit" "${PODS_CONFIGURATION_BUILD_DIR}/QMUIKit" "${PODS_CONFIGURATION_BUILD_DIR}/ReadWriteLock" "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/BlueCryptor/Cryptor.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/BlueRSA/CryptorRSA.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ElastosDIDSDK/ElastosDIDSDK.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/KituraContracts/KituraContracts.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LoggerAPI/LoggerAPI.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Logging/Logging.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit/PromiseKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/QMUIKit/QMUIKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ReadWriteLock/ReadWriteLock.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/ElastosDIDSDK/Externals/HDKey/lib"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "Alamofire" -framework "CFNetwork" -framework "CoreGraphics" -framework "Cryptor" -framework "CryptorRSA" -framework "ElastosDIDSDK" -framework "Foundation" -framework "KituraContracts" -framework "LoggerAPI" -framework "Logging" -framework "PromiseKit" -framework "QMUIKit" -framework "ReadWriteLock" -framework "SnapKit" -framework "UIKit" -weak_framework "Photos"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

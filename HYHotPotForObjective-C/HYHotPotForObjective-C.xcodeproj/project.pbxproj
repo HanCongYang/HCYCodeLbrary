@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300EC81625870D970098D812 /* CommonCryptoBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 300EC81125870D970098D812 /* CommonCryptoBridge.m */; };
+		300EC81725870D970098D812 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 300EC81425870D970098D812 /* GTMBase64.m */; };
+		306E4C0B2588A44E006B450F /* HYKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4C0A2588A44E006B450F /* HYKeyboardManager.m */; };
+		306E4C202588A8EC006B450F /* HYLoginYBWPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4C1F2588A8EC006B450F /* HYLoginYBWPRequest.m */; };
+		306E4C4625899A1C006B450F /* HYStackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4C4425899A1C006B450F /* HYStackTableViewCell.m */; };
+		306E4C5925899C4E006B450F /* HYStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4C5825899C4E006B450F /* HYStackView.m */; };
+		306E4C5E25899F15006B450F /* HYEdgeInsetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4C5D25899F15006B450F /* HYEdgeInsetView.m */; };
+		306E4C7F2589E4AF006B450F /* HYTestFloatLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4C7E2589E4AE006B450F /* HYTestFloatLayoutView.m */; };
+		306E4C862589EF4F006B450F /* HYTestFloatLayoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306E4C852589EF4F006B450F /* HYTestFloatLayoutView.xib */; };
+		306E4C8A2589F3F8006B450F /* HYTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4C892589F3F8006B450F /* HYTitleView.m */; };
+		306E4C8D2589F400006B450F /* HYTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306E4C8C2589F400006B450F /* HYTitleView.xib */; };
+		30D832AA2582050C000429D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D832A92582050C000429D8 /* AppDelegate.m */; };
+		30D832AD2582050C000429D8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D832AC2582050C000429D8 /* SceneDelegate.m */; };
+		30D832B02582050C000429D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D832AF2582050C000429D8 /* ViewController.m */; };
+		30D832B32582050C000429D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D832B12582050C000429D8 /* Main.storyboard */; };
+		30D832B52582050E000429D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D832B42582050E000429D8 /* Assets.xcassets */; };
+		30D832B82582050E000429D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D832B62582050E000429D8 /* LaunchScreen.storyboard */; };
+		30D832BB2582050E000429D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D832BA2582050E000429D8 /* main.m */; };
+		87D46046C5F78971DC193D4B /* Pods_HYHotPotForObjective_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30735520BAC79CDD31537329 /* Pods_HYHotPotForObjective_C.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		300EC81125870D970098D812 /* CommonCryptoBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCryptoBridge.m; sourceTree = "<group>"; };
+		300EC81225870D970098D812 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		300EC81325870D970098D812 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		300EC81425870D970098D812 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		300EC81525870D970098D812 /* CommonCryptoBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCryptoBridge.h; sourceTree = "<group>"; };
+		306E4C092588A44E006B450F /* HYKeyboardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYKeyboardManager.h; sourceTree = "<group>"; };
+		306E4C0A2588A44E006B450F /* HYKeyboardManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYKeyboardManager.m; sourceTree = "<group>"; };
+		306E4C1E2588A8EC006B450F /* HYLoginYBWPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYLoginYBWPRequest.h; sourceTree = "<group>"; };
+		306E4C1F2588A8EC006B450F /* HYLoginYBWPRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYLoginYBWPRequest.m; sourceTree = "<group>"; };
+		306E4C4325899A1C006B450F /* HYStackTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYStackTableViewCell.h; sourceTree = "<group>"; };
+		306E4C4425899A1C006B450F /* HYStackTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYStackTableViewCell.m; sourceTree = "<group>"; };
+		306E4C5725899C4E006B450F /* HYStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYStackView.h; sourceTree = "<group>"; };
+		306E4C5825899C4E006B450F /* HYStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYStackView.m; sourceTree = "<group>"; };
+		306E4C5C25899F15006B450F /* HYEdgeInsetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYEdgeInsetView.h; sourceTree = "<group>"; };
+		306E4C5D25899F15006B450F /* HYEdgeInsetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYEdgeInsetView.m; sourceTree = "<group>"; };
+		306E4C7D2589E4AE006B450F /* HYTestFloatLayoutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYTestFloatLayoutView.h; sourceTree = "<group>"; };
+		306E4C7E2589E4AE006B450F /* HYTestFloatLayoutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYTestFloatLayoutView.m; sourceTree = "<group>"; };
+		306E4C852589EF4F006B450F /* HYTestFloatLayoutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HYTestFloatLayoutView.xib; sourceTree = "<group>"; };
+		306E4C882589F3F8006B450F /* HYTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYTitleView.h; sourceTree = "<group>"; };
+		306E4C892589F3F8006B450F /* HYTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYTitleView.m; sourceTree = "<group>"; };
+		306E4C8C2589F400006B450F /* HYTitleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HYTitleView.xib; sourceTree = "<group>"; };
+		30735520BAC79CDD31537329 /* Pods_HYHotPotForObjective_C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYHotPotForObjective_C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D832A52582050C000429D8 /* HYHotPotForObjective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HYHotPotForObjective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D832A82582050C000429D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30D832A92582050C000429D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30D832AB2582050C000429D8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		30D832AC2582050C000429D8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		30D832AE2582050C000429D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30D832AF2582050C000429D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30D832B22582050C000429D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30D832B42582050E000429D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30D832B72582050E000429D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30D832B92582050E000429D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D832BA2582050E000429D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88CF2B8E9BB426E4EE793ACA /* Pods-HYHotPotForObjective-C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYHotPotForObjective-C.release.xcconfig"; path = "Target Support Files/Pods-HYHotPotForObjective-C/Pods-HYHotPotForObjective-C.release.xcconfig"; sourceTree = "<group>"; };
+		A0AF00771C3DEC4BEC74D6B7 /* Pods-HYHotPotForObjective-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYHotPotForObjective-C.debug.xcconfig"; path = "Target Support Files/Pods-HYHotPotForObjective-C/Pods-HYHotPotForObjective-C.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30D832A22582050C000429D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D46046C5F78971DC193D4B /* Pods_HYHotPotForObjective_C.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B1175914DF6F135CA2098EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0AF00771C3DEC4BEC74D6B7 /* Pods-HYHotPotForObjective-C.debug.xcconfig */,
+				88CF2B8E9BB426E4EE793ACA /* Pods-HYHotPotForObjective-C.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		300EC81025870D970098D812 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				306E4C732589A404006B450F /* RACLab */,
+				306E4C42258999F9006B450F /* Lab */,
+				306E4C082588A442006B450F /* HYKeyboardManager */,
+				300EC81125870D970098D812 /* CommonCryptoBridge.m */,
+				300EC81225870D970098D812 /* GTMBase64.h */,
+				300EC81325870D970098D812 /* GTMDefines.h */,
+				300EC81425870D970098D812 /* GTMBase64.m */,
+				300EC81525870D970098D812 /* CommonCryptoBridge.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		306E4C082588A442006B450F /* HYKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				306E4C092588A44E006B450F /* HYKeyboardManager.h */,
+				306E4C0A2588A44E006B450F /* HYKeyboardManager.m */,
+			);
+			path = HYKeyboardManager;
+			sourceTree = "<group>";
+		};
+		306E4C42258999F9006B450F /* Lab */ = {
+			isa = PBXGroup;
+			children = (
+				306E4C5725899C4E006B450F /* HYStackView.h */,
+				306E4C5825899C4E006B450F /* HYStackView.m */,
+				306E4C4325899A1C006B450F /* HYStackTableViewCell.h */,
+				306E4C4425899A1C006B450F /* HYStackTableViewCell.m */,
+				306E4C5C25899F15006B450F /* HYEdgeInsetView.h */,
+				306E4C5D25899F15006B450F /* HYEdgeInsetView.m */,
+				306E4C7D2589E4AE006B450F /* HYTestFloatLayoutView.h */,
+				306E4C7E2589E4AE006B450F /* HYTestFloatLayoutView.m */,
+				306E4C852589EF4F006B450F /* HYTestFloatLayoutView.xib */,
+				306E4C882589F3F8006B450F /* HYTitleView.h */,
+				306E4C892589F3F8006B450F /* HYTitleView.m */,
+				306E4C8C2589F400006B450F /* HYTitleView.xib */,
+			);
+			name = Lab;
+			path = "HYHotPotForObjective-C/Lab";
+			sourceTree = SOURCE_ROOT;
+		};
+		306E4C732589A404006B450F /* RACLab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RACLab;
+			sourceTree = "<group>";
+		};
+		30D8329C2582050C000429D8 = {
+			isa = PBXGroup;
+			children = (
+				30D832A72582050C000429D8 /* HYHotPotForObjective-C */,
+				30D832A62582050C000429D8 /* Products */,
+				0B1175914DF6F135CA2098EB /* Pods */,
+				F720141379523D49525DB8AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30D832A62582050C000429D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30D832A52582050C000429D8 /* HYHotPotForObjective-C.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30D832A72582050C000429D8 /* HYHotPotForObjective-C */ = {
+			isa = PBXGroup;
+			children = (
+				300EC81025870D970098D812 /* Common */,
+				30D832A82582050C000429D8 /* AppDelegate.h */,
+				30D832A92582050C000429D8 /* AppDelegate.m */,
+				30D832AB2582050C000429D8 /* SceneDelegate.h */,
+				30D832AC2582050C000429D8 /* SceneDelegate.m */,
+				30D832AE2582050C000429D8 /* ViewController.h */,
+				30D832AF2582050C000429D8 /* ViewController.m */,
+				306E4C1E2588A8EC006B450F /* HYLoginYBWPRequest.h */,
+				306E4C1F2588A8EC006B450F /* HYLoginYBWPRequest.m */,
+				30D832B12582050C000429D8 /* Main.storyboard */,
+				30D832B42582050E000429D8 /* Assets.xcassets */,
+				30D832B62582050E000429D8 /* LaunchScreen.storyboard */,
+				30D832B92582050E000429D8 /* Info.plist */,
+				30D832BA2582050E000429D8 /* main.m */,
+			);
+			path = "HYHotPotForObjective-C";
+			sourceTree = "<group>";
+		};
+		F720141379523D49525DB8AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30735520BAC79CDD31537329 /* Pods_HYHotPotForObjective_C.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30D832A42582050C000429D8 /* HYHotPotForObjective-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D832BE2582050E000429D8 /* Build configuration list for PBXNativeTarget "HYHotPotForObjective-C" */;
+			buildPhases = (
+				7F5CABD45B072E655BB2815C /* [CP] Check Pods Manifest.lock */,
+				30D832A12582050C000429D8 /* Sources */,
+				30D832A22582050C000429D8 /* Frameworks */,
+				30D832A32582050C000429D8 /* Resources */,
+				CEBABDF6CECF12FDFCC888EE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HYHotPotForObjective-C";
+			productName = "HYHotPotForObjective-C";
+			productReference = 30D832A52582050C000429D8 /* HYHotPotForObjective-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30D8329D2582050C000429D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					30D832A42582050C000429D8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 30D832A02582050C000429D8 /* Build configuration list for PBXProject "HYHotPotForObjective-C" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30D8329C2582050C000429D8;
+			productRefGroup = 30D832A62582050C000429D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30D832A42582050C000429D8 /* HYHotPotForObjective-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30D832A32582050C000429D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D832B82582050E000429D8 /* LaunchScreen.storyboard in Resources */,
+				30D832B52582050E000429D8 /* Assets.xcassets in Resources */,
+				306E4C862589EF4F006B450F /* HYTestFloatLayoutView.xib in Resources */,
+				30D832B32582050C000429D8 /* Main.storyboard in Resources */,
+				306E4C8D2589F400006B450F /* HYTitleView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F5CABD45B072E655BB2815C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYHotPotForObjective-C-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEBABDF6CECF12FDFCC888EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HYHotPotForObjective-C/Pods-HYHotPotForObjective-C-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HYHotPotForObjective-C/Pods-HYHotPotForObjective-C-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HYHotPotForObjective-C/Pods-HYHotPotForObjective-C-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30D832A12582050C000429D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306E4C8A2589F3F8006B450F /* HYTitleView.m in Sources */,
+				306E4C5925899C4E006B450F /* HYStackView.m in Sources */,
+				306E4C0B2588A44E006B450F /* HYKeyboardManager.m in Sources */,
+				306E4C7F2589E4AF006B450F /* HYTestFloatLayoutView.m in Sources */,
+				30D832B02582050C000429D8 /* ViewController.m in Sources */,
+				300EC81725870D970098D812 /* GTMBase64.m in Sources */,
+				306E4C5E25899F15006B450F /* HYEdgeInsetView.m in Sources */,
+				30D832AA2582050C000429D8 /* AppDelegate.m in Sources */,
+				30D832BB2582050E000429D8 /* main.m in Sources */,
+				30D832AD2582050C000429D8 /* SceneDelegate.m in Sources */,
+				306E4C202588A8EC006B450F /* HYLoginYBWPRequest.m in Sources */,
+				300EC81625870D970098D812 /* CommonCryptoBridge.m in Sources */,
+				306E4C4625899A1C006B450F /* HYStackTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30D832B12582050C000429D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30D832B22582050C000429D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30D832B62582050E000429D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30D832B72582050E000429D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30D832BC2582050E000429D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30D832BD2582050E000429D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30D832BF2582050E000429D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0AF00771C3DEC4BEC74D6B7 /* Pods-HYHotPotForObjective-C.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZT3QS42T8;
+				INFOPLIST_FILE = "HYHotPotForObjective-C/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hcy.com.HYHotPotForObjective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30D832C02582050E000429D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CF2B8E9BB426E4EE793ACA /* Pods-HYHotPotForObjective-C.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZT3QS42T8;
+				INFOPLIST_FILE = "HYHotPotForObjective-C/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hcy.com.HYHotPotForObjective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30D832A02582050C000429D8 /* Build configuration list for PBXProject "HYHotPotForObjective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D832BC2582050E000429D8 /* Debug */,
+				30D832BD2582050E000429D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D832BE2582050E000429D8 /* Build configuration list for PBXNativeTarget "HYHotPotForObjective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D832BF2582050E000429D8 /* Debug */,
+				30D832C02582050E000429D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30D8329D2582050C000429D8 /* Project object */;
+}

@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		306E4CA3258B043C006B450F /* CommonCryptoBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4C9B258B043B006B450F /* CommonCryptoBridge.m */; };
+		306E4CA4258B043C006B450F /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4C9F258B043B006B450F /* GTMBase64.m */; };
+		30857A902537F88300F52C72 /* SwiftUILearnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30857A8F2537F88300F52C72 /* SwiftUILearnApp.swift */; };
+		30857A922537F88300F52C72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30857A912537F88300F52C72 /* ContentView.swift */; };
+		30857A942537F88500F52C72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30857A932537F88500F52C72 /* Assets.xcassets */; };
+		30857A972537F88500F52C72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30857A962537F88500F52C72 /* Preview Assets.xcassets */; };
+		AAC21996793CA6258CF731AC /* Pods_SwiftUILearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20B8ED3012614757AEA828D /* Pods_SwiftUILearn.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		306E4C9B258B043B006B450F /* CommonCryptoBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCryptoBridge.m; sourceTree = "<group>"; };
+		306E4C9C258B043B006B450F /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		306E4C9E258B043B006B450F /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		306E4C9F258B043B006B450F /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		306E4CA0258B043B006B450F /* CommonCryptoBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCryptoBridge.h; sourceTree = "<group>"; };
+		306E4CA2258B043C006B450F /* SwiftUILearn-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftUILearn-Bridging-Header.h"; sourceTree = "<group>"; };
+		30857A8C2537F88300F52C72 /* SwiftUILearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30857A8F2537F88300F52C72 /* SwiftUILearnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearnApp.swift; sourceTree = "<group>"; };
+		30857A912537F88300F52C72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30857A932537F88500F52C72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30857A962537F88500F52C72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30857A982537F88500F52C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0D6A8B3C58EFB39DFD3765 /* Pods-SwiftUILearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUILearn.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUILearn/Pods-SwiftUILearn.debug.xcconfig"; sourceTree = "<group>"; };
+		A20B8ED3012614757AEA828D /* Pods_SwiftUILearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUILearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F649E15B6E8C6508C831031C /* Pods-SwiftUILearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUILearn.release.xcconfig"; path = "Target Support Files/Pods-SwiftUILearn/Pods-SwiftUILearn.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30857A892537F88300F52C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC21996793CA6258CF731AC /* Pods_SwiftUILearn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26AD164A8296F32B6DEAA25F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A0D6A8B3C58EFB39DFD3765 /* Pods-SwiftUILearn.debug.xcconfig */,
+				F649E15B6E8C6508C831031C /* Pods-SwiftUILearn.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		306E4C9A258B043B006B450F /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				306E4CA0258B043B006B450F /* CommonCryptoBridge.h */,
+				306E4C9B258B043B006B450F /* CommonCryptoBridge.m */,
+				306E4C9C258B043B006B450F /* GTMBase64.h */,
+				306E4C9F258B043B006B450F /* GTMBase64.m */,
+				306E4C9E258B043B006B450F /* GTMDefines.h */,
+				306E4CA2258B043C006B450F /* SwiftUILearn-Bridging-Header.h */,
+			);
+			path = Objc;
+			sourceTree = "<group>";
+		};
+		30857A832537F88300F52C72 = {
+			isa = PBXGroup;
+			children = (
+				30857A8E2537F88300F52C72 /* SwiftUILearn */,
+				30857A8D2537F88300F52C72 /* Products */,
+				26AD164A8296F32B6DEAA25F /* Pods */,
+				C91288D3C03E2AEA4CDA5813 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30857A8D2537F88300F52C72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30857A8C2537F88300F52C72 /* SwiftUILearn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30857A8E2537F88300F52C72 /* SwiftUILearn */ = {
+			isa = PBXGroup;
+			children = (
+				306E4C9A258B043B006B450F /* Objc */,
+				30857A8F2537F88300F52C72 /* SwiftUILearnApp.swift */,
+				30857A912537F88300F52C72 /* ContentView.swift */,
+				30857A932537F88500F52C72 /* Assets.xcassets */,
+				30857A982537F88500F52C72 /* Info.plist */,
+				30857A952537F88500F52C72 /* Preview Content */,
+			);
+			path = SwiftUILearn;
+			sourceTree = "<group>";
+		};
+		30857A952537F88500F52C72 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30857A962537F88500F52C72 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C91288D3C03E2AEA4CDA5813 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A20B8ED3012614757AEA828D /* Pods_SwiftUILearn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30857A8B2537F88300F52C72 /* SwiftUILearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30857A9B2537F88500F52C72 /* Build configuration list for PBXNativeTarget "SwiftUILearn" */;
+			buildPhases = (
+				BEBEAC8188A4C8B925903E38 /* [CP] Check Pods Manifest.lock */,
+				30857A882537F88300F52C72 /* Sources */,
+				30857A892537F88300F52C72 /* Frameworks */,
+				30857A8A2537F88300F52C72 /* Resources */,
+				F36C8B721FA797A5D7C75F2C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUILearn;
+			productName = SwiftUILearn;
+			productReference = 30857A8C2537F88300F52C72 /* SwiftUILearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30857A842537F88300F52C72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					30857A8B2537F88300F52C72 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 30857A872537F88300F52C72 /* Build configuration list for PBXProject "SwiftUILearn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30857A832537F88300F52C72;
+			productRefGroup = 30857A8D2537F88300F52C72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30857A8B2537F88300F52C72 /* SwiftUILearn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30857A8A2537F88300F52C72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30857A972537F88500F52C72 /* Preview Assets.xcassets in Resources */,
+				30857A942537F88500F52C72 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BEBEAC8188A4C8B925903E38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUILearn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F36C8B721FA797A5D7C75F2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUILearn/Pods-SwiftUILearn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUILearn/Pods-SwiftUILearn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUILearn/Pods-SwiftUILearn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30857A882537F88300F52C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30857A922537F88300F52C72 /* ContentView.swift in Sources */,
+				30857A902537F88300F52C72 /* SwiftUILearnApp.swift in Sources */,
+				306E4CA3258B043C006B450F /* CommonCryptoBridge.m in Sources */,
+				306E4CA4258B043C006B450F /* GTMBase64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		30857A992537F88500F52C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30857A9A2537F88500F52C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30857A9C2537F88500F52C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0D6A8B3C58EFB39DFD3765 /* Pods-SwiftUILearn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUILearn/Preview Content\"";
+				DEVELOPMENT_TEAM = SZT3QS42T8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUILearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hcy.com.SwiftUILearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftUILearn/Objc/SwiftUILearn-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30857A9D2537F88500F52C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F649E15B6E8C6508C831031C /* Pods-SwiftUILearn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUILearn/Preview Content\"";
+				DEVELOPMENT_TEAM = SZT3QS42T8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUILearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hcy.com.SwiftUILearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftUILearn/Objc/SwiftUILearn-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30857A872537F88300F52C72 /* Build configuration list for PBXProject "SwiftUILearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30857A992537F88500F52C72 /* Debug */,
+				30857A9A2537F88500F52C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30857A9B2537F88500F52C72 /* Build configuration list for PBXNativeTarget "SwiftUILearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30857A9C2537F88500F52C72 /* Debug */,
+				30857A9D2537F88500F52C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30857A842537F88300F52C72 /* Project object */;
+}

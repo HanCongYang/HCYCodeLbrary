@@ -1,0 +1,16 @@
+target 'HYHotPotForObjective-C' do
+
+  use_frameworks!
+
+  pod 'QMUIKit'
+  pod "PromiseKit"
+  pod 'AFNetworking'
+  pod 'ReactiveObjC'
+  pod 'YTKNetwork'
+  pod 'YYKit'
+  pod 'Masonry'
+  pod 'FDStackView'
+  pod 'ReactiveObjC'
+  pod 'CYLTabBarController'
+  
+end

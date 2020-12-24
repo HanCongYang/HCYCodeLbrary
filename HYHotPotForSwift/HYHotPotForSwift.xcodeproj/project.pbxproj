@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10018EF3DC74ECB072B7767F /* Pods_HYHotPotForSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E0DBFAE0EA52402F41ABB2 /* Pods_HYHotPotForSwift.framework */; };
+		303024F3259440EB002DAD5B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303024F2259440EB002DAD5B /* User.swift */; };
+		306E4B6C258734D6006B450F /* CommonCryptoBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4B64258734D6006B450F /* CommonCryptoBridge.m */; };
+		306E4B6D258734D6006B450F /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4B68258734D6006B450F /* GTMBase64.m */; };
+		306E4B6E258734D6006B450F /* CCallSwift.c in Sources */ = {isa = PBXBuildFile; fileRef = 306E4B6A258734D6006B450F /* CCallSwift.c */; };
+		30921CC02592F46000F9E968 /* HPTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30921CBF2592F46000F9E968 /* HPTableView.swift */; };
+		30921CC3259335BB00F9E968 /* HPCommonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30921CC2259335BB00F9E968 /* HPCommonTableViewController.swift */; };
+		30D832CF2582054D000429D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D832CE2582054D000429D8 /* AppDelegate.swift */; };
+		30D832D32582054D000429D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D832D22582054D000429D8 /* ViewController.swift */; };
+		30D832D82582054F000429D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D832D72582054F000429D8 /* Assets.xcassets */; };
+		30D832DB2582054F000429D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D832D92582054F000429D8 /* LaunchScreen.storyboard */; };
+		30DAFF432592DB1200D8F8FB /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DAFF422592DB1200D8F8FB /* MainTabBarController.swift */; };
+		30DAFF482592DBD300D8F8FB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DAFF472592DBD300D8F8FB /* HomeViewController.swift */; };
+		30DAFF4D2592DC0F00D8F8FB /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DAFF4C2592DC0F00D8F8FB /* MineViewController.swift */; };
+		30DAFF562592EC9000D8F8FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DAFF552592EC9000D8F8FB /* SceneDelegate.swift */; };
+		30DAFF5A2592EEC700D8F8FB /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DAFF592592EEC700D8F8FB /* RootViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		303024F2259440EB002DAD5B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		306E4B64258734D6006B450F /* CommonCryptoBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCryptoBridge.m; sourceTree = "<group>"; };
+		306E4B65258734D6006B450F /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		306E4B66258734D6006B450F /* CCallSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCallSwift.h; sourceTree = "<group>"; };
+		306E4B67258734D6006B450F /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		306E4B68258734D6006B450F /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		306E4B69258734D6006B450F /* CommonCryptoBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCryptoBridge.h; sourceTree = "<group>"; };
+		306E4B6A258734D6006B450F /* CCallSwift.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CCallSwift.c; sourceTree = "<group>"; };
+		306E4B6B258734D6006B450F /* HYHotPotForSwift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HYHotPotForSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		30921CBF2592F46000F9E968 /* HPTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPTableView.swift; sourceTree = "<group>"; };
+		30921CC2259335BB00F9E968 /* HPCommonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPCommonTableViewController.swift; sourceTree = "<group>"; };
+		30D832CB2582054D000429D8 /* HYHotPotForSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYHotPotForSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D832CE2582054D000429D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30D832D22582054D000429D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30D832D72582054F000429D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30D832DA2582054F000429D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30D832DC2582054F000429D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DAFF422592DB1200D8F8FB /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		30DAFF472592DBD300D8F8FB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		30DAFF4C2592DC0F00D8F8FB /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		30DAFF552592EC9000D8F8FB /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30DAFF592592EEC700D8F8FB /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		4F52AC49722E3C5E3146712A /* Pods-HYHotPotForSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYHotPotForSwift.release.xcconfig"; path = "Target Support Files/Pods-HYHotPotForSwift/Pods-HYHotPotForSwift.release.xcconfig"; sourceTree = "<group>"; };
+		60E0DBFAE0EA52402F41ABB2 /* Pods_HYHotPotForSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYHotPotForSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D8EF7CA6E1A3A355347D25 /* Pods-HYHotPotForSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYHotPotForSwift.debug.xcconfig"; path = "Target Support Files/Pods-HYHotPotForSwift/Pods-HYHotPotForSwift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30D832C82582054D000429D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10018EF3DC74ECB072B7767F /* Pods_HYHotPotForSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		303024F1259440B8002DAD5B /* HandyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				303024F2259440EB002DAD5B /* User.swift */,
+			);
+			path = HandyJSON;
+			sourceTree = "<group>";
+		};
+		306E4B63258734D6006B450F /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				306E4B6A258734D6006B450F /* CCallSwift.c */,
+				306E4B66258734D6006B450F /* CCallSwift.h */,
+				306E4B69258734D6006B450F /* CommonCryptoBridge.h */,
+				306E4B64258734D6006B450F /* CommonCryptoBridge.m */,
+				306E4B65258734D6006B450F /* GTMBase64.h */,
+				306E4B68258734D6006B450F /* GTMBase64.m */,
+				306E4B67258734D6006B450F /* GTMDefines.h */,
+				306E4B6B258734D6006B450F /* HYHotPotForSwift-Bridging-Header.h */,
+			);
+			path = Objc;
+			sourceTree = "<group>";
+		};
+		30D832C22582054D000429D8 = {
+			isa = PBXGroup;
+			children = (
+				30D832CD2582054D000429D8 /* HYHotPotForSwift */,
+				30D832CC2582054D000429D8 /* Products */,
+				9DCC65FBD6C339D6D2C858D2 /* Pods */,
+				BFCDD2FF06A16C9AA3F82B82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30D832CC2582054D000429D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30D832CB2582054D000429D8 /* HYHotPotForSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30D832CD2582054D000429D8 /* HYHotPotForSwift */ = {
+			isa = PBXGroup;
+			children = (
+				303024F1259440B8002DAD5B /* HandyJSON */,
+				30DAFF452592DB6C00D8F8FB /* Module */,
+				30DAFF2E2592D9E600D8F8FB /* Common */,
+				306E4B63258734D6006B450F /* Objc */,
+				30D832CE2582054D000429D8 /* AppDelegate.swift */,
+				30DAFF552592EC9000D8F8FB /* SceneDelegate.swift */,
+				30D832D22582054D000429D8 /* ViewController.swift */,
+				30D832D72582054F000429D8 /* Assets.xcassets */,
+				30D832D92582054F000429D8 /* LaunchScreen.storyboard */,
+				30D832DC2582054F000429D8 /* Info.plist */,
+			);
+			path = HYHotPotForSwift;
+			sourceTree = "<group>";
+		};
+		30DAFF2E2592D9E600D8F8FB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				30DAFF422592DB1200D8F8FB /* MainTabBarController.swift */,
+				30DAFF592592EEC700D8F8FB /* RootViewController.swift */,
+				30921CBF2592F46000F9E968 /* HPTableView.swift */,
+				30921CC2259335BB00F9E968 /* HPCommonTableViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		30DAFF452592DB6C00D8F8FB /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				30DAFF4B2592DBE800D8F8FB /* Mine */,
+				30DAFF462592DB8600D8F8FB /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		30DAFF462592DB8600D8F8FB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				30DAFF472592DBD300D8F8FB /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		30DAFF4B2592DBE800D8F8FB /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				30DAFF4C2592DC0F00D8F8FB /* MineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		9DCC65FBD6C339D6D2C858D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84D8EF7CA6E1A3A355347D25 /* Pods-HYHotPotForSwift.debug.xcconfig */,
+				4F52AC49722E3C5E3146712A /* Pods-HYHotPotForSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFCDD2FF06A16C9AA3F82B82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60E0DBFAE0EA52402F41ABB2 /* Pods_HYHotPotForSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30D832CA2582054D000429D8 /* HYHotPotForSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D832DF2582054F000429D8 /* Build configuration list for PBXNativeTarget "HYHotPotForSwift" */;
+			buildPhases = (
+				8EA196FEC12B40C2DD5BD46B /* [CP] Check Pods Manifest.lock */,
+				30D832C72582054D000429D8 /* Sources */,
+				30D832C82582054D000429D8 /* Frameworks */,
+				30D832C92582054D000429D8 /* Resources */,
+				E8E1ABBA5CA3AF38B0B88767 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYHotPotForSwift;
+			productName = HYHotPotForSwift;
+			productReference = 30D832CB2582054D000429D8 /* HYHotPotForSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30D832C32582054D000429D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					30D832CA2582054D000429D8 = {
+						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
+					};
+				};
+			};
+			buildConfigurationList = 30D832C62582054D000429D8 /* Build configuration list for PBXProject "HYHotPotForSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30D832C22582054D000429D8;
+			productRefGroup = 30D832CC2582054D000429D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30D832CA2582054D000429D8 /* HYHotPotForSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30D832C92582054D000429D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D832DB2582054F000429D8 /* LaunchScreen.storyboard in Resources */,
+				30D832D82582054F000429D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EA196FEC12B40C2DD5BD46B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYHotPotForSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8E1ABBA5CA3AF38B0B88767 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HYHotPotForSwift/Pods-HYHotPotForSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HYHotPotForSwift/Pods-HYHotPotForSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HYHotPotForSwift/Pods-HYHotPotForSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30D832C72582054D000429D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303024F3259440EB002DAD5B /* User.swift in Sources */,
+				30921CC02592F46000F9E968 /* HPTableView.swift in Sources */,
+				30DAFF5A2592EEC700D8F8FB /* RootViewController.swift in Sources */,
+				30D832D32582054D000429D8 /* ViewController.swift in Sources */,
+				306E4B6E258734D6006B450F /* CCallSwift.c in Sources */,
+				30921CC3259335BB00F9E968 /* HPCommonTableViewController.swift in Sources */,
+				30DAFF562592EC9000D8F8FB /* SceneDelegate.swift in Sources */,
+				30DAFF4D2592DC0F00D8F8FB /* MineViewController.swift in Sources */,
+				30D832CF2582054D000429D8 /* AppDelegate.swift in Sources */,
+				30DAFF482592DBD300D8F8FB /* HomeViewController.swift in Sources */,
+				30DAFF432592DB1200D8F8FB /* MainTabBarController.swift in Sources */,
+				306E4B6D258734D6006B450F /* GTMBase64.m in Sources */,
+				306E4B6C258734D6006B450F /* CommonCryptoBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30D832D92582054F000429D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30D832DA2582054F000429D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30D832DD2582054F000429D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30D832DE2582054F000429D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30D832E02582054F000429D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D8EF7CA6E1A3A355347D25 /* Pods-HYHotPotForSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZT3QS42T8;
+				INFOPLIST_FILE = HYHotPotForSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hcy.com.HYHotPotForSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HYHotPotForSwift/Objc/HYHotPotForSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		30D832E12582054F000429D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F52AC49722E3C5E3146712A /* Pods-HYHotPotForSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZT3QS42T8;
+				INFOPLIST_FILE = HYHotPotForSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hcy.com.HYHotPotForSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HYHotPotForSwift/Objc/HYHotPotForSwift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30D832C62582054D000429D8 /* Build configuration list for PBXProject "HYHotPotForSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D832DD2582054F000429D8 /* Debug */,
+				30D832DE2582054F000429D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D832DF2582054F000429D8 /* Build configuration list for PBXNativeTarget "HYHotPotForSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D832E02582054F000429D8 /* Debug */,
+				30D832E12582054F000429D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30D832C32582054D000429D8 /* Project object */;
+}

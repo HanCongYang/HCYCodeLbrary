@@ -1,0 +1,16 @@
+target 'HYHotPotForSwift' do
+
+  use_frameworks!
+
+  pod 'Alamofire'
+  pod "PromiseKit"
+  pod 'ElastosDIDSDK'
+  pod 'QMUIKit'
+  pod 'CYLTabBarController'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'SnapKit'
+  pod 'HandyJSON'
+  pod 'SwiftyJSON'
+
+end

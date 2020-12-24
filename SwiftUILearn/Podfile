@@ -1,0 +1,11 @@
+target 'SwiftUILearn' do
+
+  use_frameworks!
+
+  pod 'Alamofire'
+  pod "PromiseKit"
+  pod 'QMUIKit'
+  pod 'SnapKit'
+  pod 'ElastosDIDSDK'
+  
+end
