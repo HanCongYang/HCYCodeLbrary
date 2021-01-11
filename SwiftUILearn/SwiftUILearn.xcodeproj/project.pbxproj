@@ -13,6 +13,7 @@
 		30857A922537F88300F52C72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30857A912537F88300F52C72 /* ContentView.swift */; };
 		30857A942537F88500F52C72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30857A932537F88500F52C72 /* Assets.xcassets */; };
 		30857A972537F88500F52C72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30857A962537F88500F52C72 /* Preview Assets.xcassets */; };
+		309237FC259ACA4C004A0B7B /* SwipeToDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309237FB259ACA4C004A0B7B /* SwipeToDismiss.swift */; };
 		AAC21996793CA6258CF731AC /* Pods_SwiftUILearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20B8ED3012614757AEA828D /* Pods_SwiftUILearn.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		30857A932537F88500F52C72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30857A962537F88500F52C72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30857A982537F88500F52C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309237FB259ACA4C004A0B7B /* SwipeToDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToDismiss.swift; sourceTree = "<group>"; };
 		3A0D6A8B3C58EFB39DFD3765 /* Pods-SwiftUILearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUILearn.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUILearn/Pods-SwiftUILearn.debug.xcconfig"; sourceTree = "<group>"; };
 		A20B8ED3012614757AEA828D /* Pods_SwiftUILearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUILearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F649E15B6E8C6508C831031C /* Pods-SwiftUILearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUILearn.release.xcconfig"; path = "Target Support Files/Pods-SwiftUILearn/Pods-SwiftUILearn.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				306E4C9A258B043B006B450F /* Objc */,
 				30857A8F2537F88300F52C72 /* SwiftUILearnApp.swift */,
 				30857A912537F88300F52C72 /* ContentView.swift */,
+				309237FB259ACA4C004A0B7B /* SwipeToDismiss.swift */,
 				30857A932537F88500F52C72 /* Assets.xcassets */,
 				30857A982537F88500F52C72 /* Info.plist */,
 				30857A952537F88500F52C72 /* Preview Content */,
@@ -231,6 +234,7 @@
 				30857A922537F88300F52C72 /* ContentView.swift in Sources */,
 				30857A902537F88300F52C72 /* SwiftUILearnApp.swift in Sources */,
 				306E4CA3258B043C006B450F /* CommonCryptoBridge.m in Sources */,
+				309237FC259ACA4C004A0B7B /* SwipeToDismiss.swift in Sources */,
 				306E4CA4258B043C006B450F /* GTMBase64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,8 +12,10 @@
 		306E4B6C258734D6006B450F /* CommonCryptoBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4B64258734D6006B450F /* CommonCryptoBridge.m */; };
 		306E4B6D258734D6006B450F /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4B68258734D6006B450F /* GTMBase64.m */; };
 		306E4B6E258734D6006B450F /* CCallSwift.c in Sources */ = {isa = PBXBuildFile; fileRef = 306E4B6A258734D6006B450F /* CCallSwift.c */; };
+		3070A65925958ACB008FAE81 /* SQLiteLabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070A65825958ACB008FAE81 /* SQLiteLabViewController.swift */; };
 		30921CC02592F46000F9E968 /* HPTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30921CBF2592F46000F9E968 /* HPTableView.swift */; };
 		30921CC3259335BB00F9E968 /* HPCommonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30921CC2259335BB00F9E968 /* HPCommonTableViewController.swift */; };
+		30C68D6825A41371005391B3 /* SwiftLanguageMapAndFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C68D6725A41371005391B3 /* SwiftLanguageMapAndFilterViewController.swift */; };
 		30D832CF2582054D000429D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D832CE2582054D000429D8 /* AppDelegate.swift */; };
 		30D832D32582054D000429D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D832D22582054D000429D8 /* ViewController.swift */; };
 		30D832D82582054F000429D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D832D72582054F000429D8 /* Assets.xcassets */; };
@@ -35,8 +37,10 @@
 		306E4B69258734D6006B450F /* CommonCryptoBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCryptoBridge.h; sourceTree = "<group>"; };
 		306E4B6A258734D6006B450F /* CCallSwift.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CCallSwift.c; sourceTree = "<group>"; };
 		306E4B6B258734D6006B450F /* HYHotPotForSwift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HYHotPotForSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		3070A65825958ACB008FAE81 /* SQLiteLabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteLabViewController.swift; sourceTree = "<group>"; };
 		30921CBF2592F46000F9E968 /* HPTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPTableView.swift; sourceTree = "<group>"; };
 		30921CC2259335BB00F9E968 /* HPCommonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPCommonTableViewController.swift; sourceTree = "<group>"; };
+		30C68D6725A41371005391B3 /* SwiftLanguageMapAndFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLanguageMapAndFilterViewController.swift; sourceTree = "<group>"; };
 		30D832CB2582054D000429D8 /* HYHotPotForSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYHotPotForSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D832CE2582054D000429D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30D832D22582054D000429D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +92,15 @@
 			path = Objc;
 			sourceTree = "<group>";
 		};
+		3070A65125958A22008FAE81 /* Lab */ = {
+			isa = PBXGroup;
+			children = (
+				3070A65825958ACB008FAE81 /* SQLiteLabViewController.swift */,
+				30C68D6725A41371005391B3 /* SwiftLanguageMapAndFilterViewController.swift */,
+			);
+			path = Lab;
+			sourceTree = "<group>";
+		};
 		30D832C22582054D000429D8 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +150,7 @@
 		30DAFF452592DB6C00D8F8FB /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				3070A65125958A22008FAE81 /* Lab */,
 				30DAFF4B2592DBE800D8F8FB /* Mine */,
 				30DAFF462592DB8600D8F8FB /* Home */,
 			);
@@ -293,6 +307,7 @@
 				303024F3259440EB002DAD5B /* User.swift in Sources */,
 				30921CC02592F46000F9E968 /* HPTableView.swift in Sources */,
 				30DAFF5A2592EEC700D8F8FB /* RootViewController.swift in Sources */,
+				30C68D6825A41371005391B3 /* SwiftLanguageMapAndFilterViewController.swift in Sources */,
 				30D832D32582054D000429D8 /* ViewController.swift in Sources */,
 				306E4B6E258734D6006B450F /* CCallSwift.c in Sources */,
 				30921CC3259335BB00F9E968 /* HPCommonTableViewController.swift in Sources */,
@@ -300,6 +315,7 @@
 				30DAFF4D2592DC0F00D8F8FB /* MineViewController.swift in Sources */,
 				30D832CF2582054D000429D8 /* AppDelegate.swift in Sources */,
 				30DAFF482592DBD300D8F8FB /* HomeViewController.swift in Sources */,
+				3070A65925958ACB008FAE81 /* SQLiteLabViewController.swift in Sources */,
 				30DAFF432592DB1200D8F8FB /* MainTabBarController.swift in Sources */,
 				306E4B6D258734D6006B450F /* GTMBase64.m in Sources */,
 				306E4B6C258734D6006B450F /* CommonCryptoBridge.m in Sources */,

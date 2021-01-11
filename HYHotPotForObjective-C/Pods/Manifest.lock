@@ -14,8 +14,15 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - CYLTabBarController (1.29.0):
+    - CYLTabBarController/Core (= 1.29.0)
+  - CYLTabBarController/Core (1.29.0)
   - FDStackView (1.0.1)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
   - Masonry (1.1.0)
+  - MJRefresh (3.5.0)
   - PromiseKit (6.13.1):
     - PromiseKit/CorePromise (= 6.13.1)
     - PromiseKit/Foundation (= 6.13.1)
@@ -351,8 +358,11 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - CYLTabBarController
   - FDStackView
+  - IGListKit
   - Masonry
+  - MJRefresh
   - PromiseKit
   - QMUIKit
   - ReactiveObjC
@@ -362,8 +372,12 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - CYLTabBarController
     - FDStackView
+    - IGListDiffKit
+    - IGListKit
     - Masonry
+    - MJRefresh
     - PromiseKit
     - QMUIKit
     - ReactiveObjC
@@ -372,14 +386,18 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CYLTabBarController: f5460b8446f82d016945d4d53895a1ef185b79e3
   FDStackView: fc0697e5be2022c8af36ce66e9e2061006058ba8
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
   QMUIKit: 15294d6a350466e4a6f4df0333eac5bff474f995
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   YTKNetwork: a096f80c18c7e7cc0e623a0fbea0a1bfd3f5bcf2
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 17da4587fe7a5c603b98e4f2d39744472e0cfb35
+PODFILE CHECKSUM: b065dd8fddc642d6d7e671804aac0988ebb28747
 
 COCOAPODS: 1.9.3

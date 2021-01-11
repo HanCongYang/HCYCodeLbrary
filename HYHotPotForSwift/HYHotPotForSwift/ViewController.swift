@@ -8,6 +8,7 @@
 import UIKit
 import Alamofire
 import PromiseKit
+import RainbowSwift
 
 //@_cdecl("mlx_init")
 //public func mlx_init_swift() {
@@ -49,6 +50,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
         let adapter = UserAdapter()
         do {
             try DIDBackend.initializeInstance(resolver, cache)

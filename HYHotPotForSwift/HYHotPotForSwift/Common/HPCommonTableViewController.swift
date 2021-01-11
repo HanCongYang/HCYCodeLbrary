@@ -47,8 +47,14 @@ class HPCommonTableViewController: QMUICommonTableViewController {
         var cell: UITableViewCell? = tableView .dequeueReusableCell(withIdentifier: "cell") ?? nil
         if cell == nil {
             cell = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "cell")
+            cell?.textLabel?.text = self.dataSourceWithDetailText?.allKeys[indexPath.row] as String?
         }
         return cell!
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        self.didSelectCellWithTitle(title: (self.dataSourceWithDetailText?.allKeys[indexPath.row])!)
     }
     
 }

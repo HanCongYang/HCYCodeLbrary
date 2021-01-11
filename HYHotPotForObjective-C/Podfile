@@ -12,5 +12,8 @@ target 'HYHotPotForObjective-C' do
   pod 'FDStackView'
   pod 'ReactiveObjC'
   pod 'CYLTabBarController'
+  pod 'IGListKit'
+  pod 'MJRefresh'
+  pod 'IGListKit'
   
 end

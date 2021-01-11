@@ -12,6 +12,8 @@ import PromiseKit
 import Alamofire
 import HandyJSON
 import SwiftyJSON
+import RainbowSwift
+
 
 class BasicTypes: HandyJSON {
     var int: Int = 2
@@ -23,12 +25,35 @@ class BasicTypes: HandyJSON {
 
 class HomeViewController: HPCommonTableViewController {
     
+    override func initDataSource() {
+        
+        self.dataSourceWithDetailText = QMUIOrderedDictionary()
+        self.dataSourceWithDetailText?.add("swift 数据存储解决方案", forKey: "使用SQLite.swift")
+        self.dataSourceWithDetailText?.add("swift map filter 用法", forKey: "swift map filter 用法")
+        
+    }
+    
+    override func didSelectCellWithTitle(title: NSString) {
+        
+        if title == "使用SQLite.swift" {
+            let vc = SQLiteLabViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        } else if title == "swift map filter 用法" {
+            let vc = SwiftLanguageMapAndFilterViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        
+        
+    }
 
     override func viewDidLoad() {
         
         super.viewDidLoad()
         
+        print("hello rainBow".onBlue)
 
+        
+        self.initDataSource()
 
         let jsonString = "{\"doubleOptional\":1.1,\"stringImplicitlyUnwrapped\":\"hello\",\"int\":1}"
         if let object = BasicTypes.deserialize(from: jsonString) {

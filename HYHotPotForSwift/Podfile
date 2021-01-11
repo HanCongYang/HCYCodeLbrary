@@ -12,5 +12,8 @@ target 'HYHotPotForSwift' do
   pod 'SnapKit'
   pod 'HandyJSON'
   pod 'SwiftyJSON'
-
+  pod 'SQLite.swift'
+  pod 'RainbowSwift'
+  pod 'IGListKit'
+  
 end

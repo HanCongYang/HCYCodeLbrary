@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		300EC81625870D970098D812 /* CommonCryptoBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 300EC81125870D970098D812 /* CommonCryptoBridge.m */; };
 		300EC81725870D970098D812 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 300EC81425870D970098D812 /* GTMBase64.m */; };
+		303025672594BB5E002DAD5B /* ThreeColumnTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 303025662594BB5E002DAD5B /* ThreeColumnTestView.m */; };
+		3030256A2594BB69002DAD5B /* ThreeColumnTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 303025692594BB69002DAD5B /* ThreeColumnTestView.xib */; };
 		306E4C0B2588A44E006B450F /* HYKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4C0A2588A44E006B450F /* HYKeyboardManager.m */; };
 		306E4C202588A8EC006B450F /* HYLoginYBWPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4C1F2588A8EC006B450F /* HYLoginYBWPRequest.m */; };
 		306E4C4625899A1C006B450F /* HYStackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4C4425899A1C006B450F /* HYStackTableViewCell.m */; };
@@ -18,10 +20,20 @@
 		306E4C862589EF4F006B450F /* HYTestFloatLayoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306E4C852589EF4F006B450F /* HYTestFloatLayoutView.xib */; };
 		306E4C8A2589F3F8006B450F /* HYTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4C892589F3F8006B450F /* HYTitleView.m */; };
 		306E4C8D2589F400006B450F /* HYTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306E4C8C2589F400006B450F /* HYTitleView.xib */; };
+		307031AC2595D407006799C8 /* ViewAddOnStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307031AB2595D407006799C8 /* ViewAddOnStackViewController.m */; };
+		3092382E259B07F5004A0B7B /* HYIntroTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3092382C259B07F5004A0B7B /* HYIntroTableViewCell.m */; };
+		3092382F259B07F5004A0B7B /* HYIntroTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3092382D259B07F5004A0B7B /* HYIntroTableViewCell.xib */; };
+		30923834259B0CEC004A0B7B /* HYIntroModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30923833259B0CEC004A0B7B /* HYIntroModel.m */; };
+		30923838259B0FD4004A0B7B /* IGListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30923837259B0FD4004A0B7B /* IGListViewController.m */; };
+		30923901259B15C5004A0B7B /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 30923900259B15C5004A0B7B /* Post.m */; };
+		30923905259B15F1004A0B7B /* ObjcDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30923904259B15F1004A0B7B /* ObjcDemoViewController.m */; };
+		30923909259B165D004A0B7B /* PostSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30923908259B165D004A0B7B /* PostSectionController.m */; };
+		30923913259B169C004A0B7B /* InteractiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3092390B259B1696004A0B7B /* InteractiveCell.m */; };
+		30923914259B169C004A0B7B /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3092390E259B1699004A0B7B /* PhotoCell.m */; };
+		30923915259B169C004A0B7B /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30923910259B169A004A0B7B /* CommentCell.m */; };
+		30923916259B169C004A0B7B /* UserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30923911259B169B004A0B7B /* UserInfoCell.m */; };
 		30D832AA2582050C000429D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D832A92582050C000429D8 /* AppDelegate.m */; };
-		30D832AD2582050C000429D8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D832AC2582050C000429D8 /* SceneDelegate.m */; };
 		30D832B02582050C000429D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D832AF2582050C000429D8 /* ViewController.m */; };
-		30D832B32582050C000429D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D832B12582050C000429D8 /* Main.storyboard */; };
 		30D832B52582050E000429D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D832B42582050E000429D8 /* Assets.xcassets */; };
 		30D832B82582050E000429D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D832B62582050E000429D8 /* LaunchScreen.storyboard */; };
 		30D832BB2582050E000429D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D832BA2582050E000429D8 /* main.m */; };
@@ -34,6 +46,9 @@
 		300EC81325870D970098D812 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		300EC81425870D970098D812 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		300EC81525870D970098D812 /* CommonCryptoBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCryptoBridge.h; sourceTree = "<group>"; };
+		303025652594BB5E002DAD5B /* ThreeColumnTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeColumnTestView.h; sourceTree = "<group>"; };
+		303025662594BB5E002DAD5B /* ThreeColumnTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeColumnTestView.m; sourceTree = "<group>"; };
+		303025692594BB69002DAD5B /* ThreeColumnTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeColumnTestView.xib; sourceTree = "<group>"; };
 		306E4C092588A44E006B450F /* HYKeyboardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYKeyboardManager.h; sourceTree = "<group>"; };
 		306E4C0A2588A44E006B450F /* HYKeyboardManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYKeyboardManager.m; sourceTree = "<group>"; };
 		306E4C1E2588A8EC006B450F /* HYLoginYBWPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYLoginYBWPRequest.h; sourceTree = "<group>"; };
@@ -50,15 +65,35 @@
 		306E4C882589F3F8006B450F /* HYTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYTitleView.h; sourceTree = "<group>"; };
 		306E4C892589F3F8006B450F /* HYTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYTitleView.m; sourceTree = "<group>"; };
 		306E4C8C2589F400006B450F /* HYTitleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HYTitleView.xib; sourceTree = "<group>"; };
+		307031AA2595D407006799C8 /* ViewAddOnStackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewAddOnStackViewController.h; sourceTree = "<group>"; };
+		307031AB2595D407006799C8 /* ViewAddOnStackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewAddOnStackViewController.m; sourceTree = "<group>"; };
 		30735520BAC79CDD31537329 /* Pods_HYHotPotForObjective_C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYHotPotForObjective_C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3092382B259B07F5004A0B7B /* HYIntroTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYIntroTableViewCell.h; sourceTree = "<group>"; };
+		3092382C259B07F5004A0B7B /* HYIntroTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYIntroTableViewCell.m; sourceTree = "<group>"; };
+		3092382D259B07F5004A0B7B /* HYIntroTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HYIntroTableViewCell.xib; sourceTree = "<group>"; };
+		30923832259B0CEC004A0B7B /* HYIntroModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYIntroModel.h; sourceTree = "<group>"; };
+		30923833259B0CEC004A0B7B /* HYIntroModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYIntroModel.m; sourceTree = "<group>"; };
+		30923836259B0FD4004A0B7B /* IGListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGListViewController.h; sourceTree = "<group>"; };
+		30923837259B0FD4004A0B7B /* IGListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGListViewController.m; sourceTree = "<group>"; };
+		309238FF259B15C4004A0B7B /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		30923900259B15C5004A0B7B /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		30923903259B15F0004A0B7B /* ObjcDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcDemoViewController.h; sourceTree = "<group>"; };
+		30923904259B15F1004A0B7B /* ObjcDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcDemoViewController.m; sourceTree = "<group>"; };
+		30923907259B165C004A0B7B /* PostSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostSectionController.h; sourceTree = "<group>"; };
+		30923908259B165D004A0B7B /* PostSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostSectionController.m; sourceTree = "<group>"; };
+		3092390B259B1696004A0B7B /* InteractiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveCell.m; sourceTree = "<group>"; };
+		3092390C259B1697004A0B7B /* InteractiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveCell.h; sourceTree = "<group>"; };
+		3092390D259B1698004A0B7B /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		3092390E259B1699004A0B7B /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		3092390F259B169A004A0B7B /* UserInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoCell.h; sourceTree = "<group>"; };
+		30923910259B169A004A0B7B /* CommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCell.m; sourceTree = "<group>"; };
+		30923911259B169B004A0B7B /* UserInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoCell.m; sourceTree = "<group>"; };
+		30923912259B169C004A0B7B /* CommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCell.h; sourceTree = "<group>"; };
 		30D832A52582050C000429D8 /* HYHotPotForObjective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HYHotPotForObjective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D832A82582050C000429D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30D832A92582050C000429D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		30D832AB2582050C000429D8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		30D832AC2582050C000429D8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		30D832AE2582050C000429D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		30D832AF2582050C000429D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		30D832B22582050C000429D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30D832B42582050E000429D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30D832B72582050E000429D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30D832B92582050E000429D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -135,8 +170,77 @@
 		306E4C732589A404006B450F /* RACLab */ = {
 			isa = PBXGroup;
 			children = (
+				307031AA2595D407006799C8 /* ViewAddOnStackViewController.h */,
+				307031AB2595D407006799C8 /* ViewAddOnStackViewController.m */,
 			);
 			path = RACLab;
+			sourceTree = "<group>";
+		};
+		30923826259B0786004A0B7B /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				30923827259B0795004A0B7B /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		30923827259B0795004A0B7B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				30923828259B07CE004A0B7B /* Controller */,
+				30923829259B07CE004A0B7B /* Model */,
+				3092382A259B07CE004A0B7B /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		30923828259B07CE004A0B7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				30923836259B0FD4004A0B7B /* IGListViewController.h */,
+				30923837259B0FD4004A0B7B /* IGListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		30923829259B07CE004A0B7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30923832259B0CEC004A0B7B /* HYIntroModel.h */,
+				30923833259B0CEC004A0B7B /* HYIntroModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3092382A259B07CE004A0B7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3092382B259B07F5004A0B7B /* HYIntroTableViewCell.h */,
+				3092382C259B07F5004A0B7B /* HYIntroTableViewCell.m */,
+				3092382D259B07F5004A0B7B /* HYIntroTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		309238FE259B15B6004A0B7B /* IGList */ = {
+			isa = PBXGroup;
+			children = (
+				30923907259B165C004A0B7B /* PostSectionController.h */,
+				30923908259B165D004A0B7B /* PostSectionController.m */,
+				309238FF259B15C4004A0B7B /* Post.h */,
+				30923900259B15C5004A0B7B /* Post.m */,
+				30923903259B15F0004A0B7B /* ObjcDemoViewController.h */,
+				30923904259B15F1004A0B7B /* ObjcDemoViewController.m */,
+				30923912259B169C004A0B7B /* CommentCell.h */,
+				30923910259B169A004A0B7B /* CommentCell.m */,
+				3092390C259B1697004A0B7B /* InteractiveCell.h */,
+				3092390B259B1696004A0B7B /* InteractiveCell.m */,
+				3092390D259B1698004A0B7B /* PhotoCell.h */,
+				3092390E259B1699004A0B7B /* PhotoCell.m */,
+				3092390F259B169A004A0B7B /* UserInfoCell.h */,
+				30923911259B169B004A0B7B /* UserInfoCell.m */,
+			);
+			path = IGList;
 			sourceTree = "<group>";
 		};
 		30D8329C2582050C000429D8 = {
@@ -160,16 +264,18 @@
 		30D832A72582050C000429D8 /* HYHotPotForObjective-C */ = {
 			isa = PBXGroup;
 			children = (
+				309238FE259B15B6004A0B7B /* IGList */,
+				30923826259B0786004A0B7B /* Module */,
 				300EC81025870D970098D812 /* Common */,
 				30D832A82582050C000429D8 /* AppDelegate.h */,
 				30D832A92582050C000429D8 /* AppDelegate.m */,
-				30D832AB2582050C000429D8 /* SceneDelegate.h */,
-				30D832AC2582050C000429D8 /* SceneDelegate.m */,
 				30D832AE2582050C000429D8 /* ViewController.h */,
 				30D832AF2582050C000429D8 /* ViewController.m */,
+				303025652594BB5E002DAD5B /* ThreeColumnTestView.h */,
+				303025662594BB5E002DAD5B /* ThreeColumnTestView.m */,
+				303025692594BB69002DAD5B /* ThreeColumnTestView.xib */,
 				306E4C1E2588A8EC006B450F /* HYLoginYBWPRequest.h */,
 				306E4C1F2588A8EC006B450F /* HYLoginYBWPRequest.m */,
-				30D832B12582050C000429D8 /* Main.storyboard */,
 				30D832B42582050E000429D8 /* Assets.xcassets */,
 				30D832B62582050E000429D8 /* LaunchScreen.storyboard */,
 				30D832B92582050E000429D8 /* Info.plist */,
@@ -246,8 +352,9 @@
 			files = (
 				30D832B82582050E000429D8 /* LaunchScreen.storyboard in Resources */,
 				30D832B52582050E000429D8 /* Assets.xcassets in Resources */,
+				3092382F259B07F5004A0B7B /* HYIntroTableViewCell.xib in Resources */,
 				306E4C862589EF4F006B450F /* HYTestFloatLayoutView.xib in Resources */,
-				30D832B32582050C000429D8 /* Main.storyboard in Resources */,
+				3030256A2594BB69002DAD5B /* ThreeColumnTestView.xib in Resources */,
 				306E4C8D2589F400006B450F /* HYTitleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,18 +408,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30923914259B169C004A0B7B /* PhotoCell.m in Sources */,
 				306E4C8A2589F3F8006B450F /* HYTitleView.m in Sources */,
+				30923905259B15F1004A0B7B /* ObjcDemoViewController.m in Sources */,
+				3092382E259B07F5004A0B7B /* HYIntroTableViewCell.m in Sources */,
 				306E4C5925899C4E006B450F /* HYStackView.m in Sources */,
 				306E4C0B2588A44E006B450F /* HYKeyboardManager.m in Sources */,
+				30923909259B165D004A0B7B /* PostSectionController.m in Sources */,
 				306E4C7F2589E4AF006B450F /* HYTestFloatLayoutView.m in Sources */,
 				30D832B02582050C000429D8 /* ViewController.m in Sources */,
 				300EC81725870D970098D812 /* GTMBase64.m in Sources */,
 				306E4C5E25899F15006B450F /* HYEdgeInsetView.m in Sources */,
+				303025672594BB5E002DAD5B /* ThreeColumnTestView.m in Sources */,
+				30923916259B169C004A0B7B /* UserInfoCell.m in Sources */,
+				307031AC2595D407006799C8 /* ViewAddOnStackViewController.m in Sources */,
+				30923913259B169C004A0B7B /* InteractiveCell.m in Sources */,
+				30923838259B0FD4004A0B7B /* IGListViewController.m in Sources */,
 				30D832AA2582050C000429D8 /* AppDelegate.m in Sources */,
 				30D832BB2582050E000429D8 /* main.m in Sources */,
-				30D832AD2582050C000429D8 /* SceneDelegate.m in Sources */,
+				30923915259B169C004A0B7B /* CommentCell.m in Sources */,
+				30923901259B15C5004A0B7B /* Post.m in Sources */,
 				306E4C202588A8EC006B450F /* HYLoginYBWPRequest.m in Sources */,
 				300EC81625870D970098D812 /* CommonCryptoBridge.m in Sources */,
+				30923834259B0CEC004A0B7B /* HYIntroModel.m in Sources */,
 				306E4C4625899A1C006B450F /* HYStackTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,14 +438,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		30D832B12582050C000429D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30D832B22582050C000429D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		30D832B62582050E000429D8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -466,6 +576,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hcy.com.HYHotPotForObjective-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -485,6 +596,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hcy.com.HYHotPotForObjective-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

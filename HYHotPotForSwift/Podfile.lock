@@ -13,6 +13,9 @@ PODS:
     - PromiseKit (~> 6.9)
     - ReadWriteLock (~> 1.0)
   - HandyJSON (5.0.2)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
   - KituraContracts (1.2.1):
     - LoggerAPI (~> 1.7)
   - LoggerAPI (1.9.200):
@@ -344,6 +347,7 @@ PODS:
     - QMUIKit/QMUILog
   - QMUIKit/QMUIResources (4.2.1)
   - QMUIKit/QMUIWeakObjectContainer (4.2.1)
+  - RainbowSwift (3.2.0)
   - ReadWriteLock (1.0.2)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
@@ -352,6 +356,9 @@ PODS:
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
   - SnapKit (5.0.1)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
@@ -359,11 +366,14 @@ DEPENDENCIES:
   - CYLTabBarController
   - ElastosDIDSDK
   - HandyJSON
+  - IGListKit
   - PromiseKit
   - QMUIKit
+  - RainbowSwift
   - RxCocoa
   - RxSwift
   - SnapKit
+  - SQLite.swift
   - SwiftyJSON
 
 SPEC REPOS:
@@ -374,16 +384,20 @@ SPEC REPOS:
     - CYLTabBarController
     - ElastosDIDSDK
     - HandyJSON
+    - IGListDiffKit
+    - IGListKit
     - KituraContracts
     - LoggerAPI
     - Logging
     - PromiseKit
     - QMUIKit
+    - RainbowSwift
     - ReadWriteLock
     - RxCocoa
     - RxRelay
     - RxSwift
     - SnapKit
+    - SQLite.swift
     - SwiftyJSON
 
 SPEC CHECKSUMS:
@@ -393,18 +407,22 @@ SPEC CHECKSUMS:
   CYLTabBarController: f5460b8446f82d016945d4d53895a1ef185b79e3
   ElastosDIDSDK: a8441a384ba85cbf44d374a712ac0d7767edb2d7
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
   KituraContracts: e845e60dc8627ad0a76fa55ef20a45451d8f830b
   LoggerAPI: ad9c4a6f1e32f518fdb43a1347ac14d765ab5e3d
   Logging: beeb016c9c80cf77042d62e83495816847ef108b
   PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
   QMUIKit: 15294d6a350466e4a6f4df0333eac5bff474f995
+  RainbowSwift: 97eea9ffebcfeb9f9c3a4c0cabf9ff2684c2b588
   ReadWriteLock: 530a9204257f782636562f337cefb5469ce9900d
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 35b49972bb91c94e57729e00ccd9d7388b513c2f
+PODFILE CHECKSUM: e712ef8b536dd9696ff2123726351cbb82406c6e
 
 COCOAPODS: 1.9.3
