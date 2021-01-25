@@ -9,12 +9,43 @@
 /* Begin PBXBuildFile section */
 		10018EF3DC74ECB072B7767F /* Pods_HYHotPotForSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E0DBFAE0EA52402F41ABB2 /* Pods_HYHotPotForSwift.framework */; };
 		303024F3259440EB002DAD5B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303024F2259440EB002DAD5B /* User.swift */; };
+		3038B5AB25B6E3A60015726B /* HomeListSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3038B5AA25B6E3A60015726B /* HomeListSectionController.swift */; };
 		306E4B6C258734D6006B450F /* CommonCryptoBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4B64258734D6006B450F /* CommonCryptoBridge.m */; };
 		306E4B6D258734D6006B450F /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4B68258734D6006B450F /* GTMBase64.m */; };
 		306E4B6E258734D6006B450F /* CCallSwift.c in Sources */ = {isa = PBXBuildFile; fileRef = 306E4B6A258734D6006B450F /* CCallSwift.c */; };
 		3070A65925958ACB008FAE81 /* SQLiteLabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070A65825958ACB008FAE81 /* SQLiteLabViewController.swift */; };
 		30921CC02592F46000F9E968 /* HPTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30921CBF2592F46000F9E968 /* HPTableView.swift */; };
 		30921CC3259335BB00F9E968 /* HPCommonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30921CC2259335BB00F9E968 /* HPCommonTableViewController.swift */; };
+		30B7BA5925AEA829005EF33E /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA5825AEA829005EF33E /* DictionaryViewController.swift */; };
+		30B7BA5D25AEA8AF005EF33E /* SpinnerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA5C25AEA8AF005EF33E /* SpinnerCell.swift */; };
+		30B7BA6025AEA8C9005EF33E /* LabelSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA5F25AEA8C9005EF33E /* LabelSectionController.swift */; };
+		30B7BA6325AEA946005EF33E /* IGListCollectionContext+Refinements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA6225AEA946005EF33E /* IGListCollectionContext+Refinements.swift */; };
+		30B7BA6625AEA979005EF33E /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA6525AEA979005EF33E /* LabelCell.swift */; };
+		30B7BA6925AEA99A005EF33E /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA6825AEA99A005EF33E /* UIColor+Extension.swift */; };
+		30B7BA6C25AEA9AF005EF33E /* UIActivityIndicatorView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA6B25AEA9AF005EF33E /* UIActivityIndicatorView+Extension.swift */; };
+		30B7BAAB25B03924005EF33E /* CRRefreshAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA8F25B03924005EF33E /* CRRefreshAnimator.swift */; };
+		30B7BAAC25B03924005EF33E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA9025B03924005EF33E /* UIColorExtension.swift */; };
+		30B7BAAD25B03924005EF33E /* RamotionBounceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA9325B03924005EF33E /* RamotionBounceLayer.swift */; };
+		30B7BAAE25B03924005EF33E /* RamotionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA9425B03924005EF33E /* RamotionAnimator.swift */; };
+		30B7BAAF25B03924005EF33E /* RamotionWaveLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA9525B03924005EF33E /* RamotionWaveLayer.swift */; };
+		30B7BAB025B03924005EF33E /* RamotionBallLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA9625B03924005EF33E /* RamotionBallLayer.swift */; };
+		30B7BAB125B03924005EF33E /* SlackLoadingAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA9825B03924005EF33E /* SlackLoadingAnimator.swift */; };
+		30B7BAB225B03924005EF33E /* WCLLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA9925B03924005EF33E /* WCLLoadingView.swift */; };
+		30B7BAB325B03924005EF33E /* FastAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA9B25B03924005EF33E /* FastAnimator.swift */; };
+		30B7BAB425B03924005EF33E /* FastLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA9C25B03924005EF33E /* FastLayer.swift */; };
+		30B7BAB525B03924005EF33E /* FastArrowLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA9D25B03924005EF33E /* FastArrowLayer.swift */; };
+		30B7BAB625B03924005EF33E /* FastCheckLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA9E25B03924005EF33E /* FastCheckLayer.swift */; };
+		30B7BAB725B03924005EF33E /* FastCircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BA9F25B03924005EF33E /* FastCircleLayer.swift */; };
+		30B7BAB825B03924005EF33E /* NormalHeader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 30B7BAA125B03924005EF33E /* NormalHeader.bundle */; };
+		30B7BAB925B03924005EF33E /* NormalHeaderAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BAA225B03924005EF33E /* NormalHeaderAnimator.swift */; };
+		30B7BABA25B03924005EF33E /* NormalFooterAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BAA325B03924005EF33E /* NormalFooterAnimator.swift */; };
+		30B7BABB25B03924005EF33E /* NormalFooter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 30B7BAA425B03924005EF33E /* NormalFooter.bundle */; };
+		30B7BABC25B03924005EF33E /* CRRefreshBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BAA525B03924005EF33E /* CRRefreshBundle.swift */; };
+		30B7BABD25B03924005EF33E /* CRRefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BAA625B03924005EF33E /* CRRefreshHeaderView.swift */; };
+		30B7BABE25B03924005EF33E /* CRRefreshExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BAA725B03924005EF33E /* CRRefreshExtension.swift */; };
+		30B7BABF25B03924005EF33E /* CRRefreshProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BAA825B03924005EF33E /* CRRefreshProtocol.swift */; };
+		30B7BAC025B03924005EF33E /* CRRefreshComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BAA925B03924005EF33E /* CRRefreshComponent.swift */; };
+		30B7BAC125B03924005EF33E /* CRRefreshFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7BAAA25B03924005EF33E /* CRRefreshFooterView.swift */; };
 		30C68D6825A41371005391B3 /* SwiftLanguageMapAndFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C68D6725A41371005391B3 /* SwiftLanguageMapAndFilterViewController.swift */; };
 		30D832CF2582054D000429D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D832CE2582054D000429D8 /* AppDelegate.swift */; };
 		30D832D32582054D000429D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D832D22582054D000429D8 /* ViewController.swift */; };
@@ -29,6 +60,7 @@
 
 /* Begin PBXFileReference section */
 		303024F2259440EB002DAD5B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3038B5AA25B6E3A60015726B /* HomeListSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListSectionController.swift; sourceTree = "<group>"; };
 		306E4B64258734D6006B450F /* CommonCryptoBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCryptoBridge.m; sourceTree = "<group>"; };
 		306E4B65258734D6006B450F /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		306E4B66258734D6006B450F /* CCallSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCallSwift.h; sourceTree = "<group>"; };
@@ -40,6 +72,36 @@
 		3070A65825958ACB008FAE81 /* SQLiteLabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteLabViewController.swift; sourceTree = "<group>"; };
 		30921CBF2592F46000F9E968 /* HPTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPTableView.swift; sourceTree = "<group>"; };
 		30921CC2259335BB00F9E968 /* HPCommonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPCommonTableViewController.swift; sourceTree = "<group>"; };
+		30B7BA5825AEA829005EF33E /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
+		30B7BA5C25AEA8AF005EF33E /* SpinnerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerCell.swift; sourceTree = "<group>"; };
+		30B7BA5F25AEA8C9005EF33E /* LabelSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelSectionController.swift; sourceTree = "<group>"; };
+		30B7BA6225AEA946005EF33E /* IGListCollectionContext+Refinements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IGListCollectionContext+Refinements.swift"; sourceTree = "<group>"; };
+		30B7BA6525AEA979005EF33E /* LabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		30B7BA6825AEA99A005EF33E /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		30B7BA6B25AEA9AF005EF33E /* UIActivityIndicatorView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Extension.swift"; sourceTree = "<group>"; };
+		30B7BA8F25B03924005EF33E /* CRRefreshAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshAnimator.swift; sourceTree = "<group>"; };
+		30B7BA9025B03924005EF33E /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		30B7BA9325B03924005EF33E /* RamotionBounceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionBounceLayer.swift; sourceTree = "<group>"; };
+		30B7BA9425B03924005EF33E /* RamotionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionAnimator.swift; sourceTree = "<group>"; };
+		30B7BA9525B03924005EF33E /* RamotionWaveLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionWaveLayer.swift; sourceTree = "<group>"; };
+		30B7BA9625B03924005EF33E /* RamotionBallLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionBallLayer.swift; sourceTree = "<group>"; };
+		30B7BA9825B03924005EF33E /* SlackLoadingAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlackLoadingAnimator.swift; sourceTree = "<group>"; };
+		30B7BA9925B03924005EF33E /* WCLLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLLoadingView.swift; sourceTree = "<group>"; };
+		30B7BA9B25B03924005EF33E /* FastAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastAnimator.swift; sourceTree = "<group>"; };
+		30B7BA9C25B03924005EF33E /* FastLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastLayer.swift; sourceTree = "<group>"; };
+		30B7BA9D25B03924005EF33E /* FastArrowLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastArrowLayer.swift; sourceTree = "<group>"; };
+		30B7BA9E25B03924005EF33E /* FastCheckLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastCheckLayer.swift; sourceTree = "<group>"; };
+		30B7BA9F25B03924005EF33E /* FastCircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastCircleLayer.swift; sourceTree = "<group>"; };
+		30B7BAA125B03924005EF33E /* NormalHeader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NormalHeader.bundle; sourceTree = "<group>"; };
+		30B7BAA225B03924005EF33E /* NormalHeaderAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalHeaderAnimator.swift; sourceTree = "<group>"; };
+		30B7BAA325B03924005EF33E /* NormalFooterAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalFooterAnimator.swift; sourceTree = "<group>"; };
+		30B7BAA425B03924005EF33E /* NormalFooter.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NormalFooter.bundle; sourceTree = "<group>"; };
+		30B7BAA525B03924005EF33E /* CRRefreshBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshBundle.swift; sourceTree = "<group>"; };
+		30B7BAA625B03924005EF33E /* CRRefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshHeaderView.swift; sourceTree = "<group>"; };
+		30B7BAA725B03924005EF33E /* CRRefreshExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshExtension.swift; sourceTree = "<group>"; };
+		30B7BAA825B03924005EF33E /* CRRefreshProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshProtocol.swift; sourceTree = "<group>"; };
+		30B7BAA925B03924005EF33E /* CRRefreshComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshComponent.swift; sourceTree = "<group>"; };
+		30B7BAAA25B03924005EF33E /* CRRefreshFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshFooterView.swift; sourceTree = "<group>"; };
 		30C68D6725A41371005391B3 /* SwiftLanguageMapAndFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLanguageMapAndFilterViewController.swift; sourceTree = "<group>"; };
 		30D832CB2582054D000429D8 /* HYHotPotForSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYHotPotForSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D832CE2582054D000429D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +163,90 @@
 			path = Lab;
 			sourceTree = "<group>";
 		};
+		30B7BA5725AEA81A005EF33E /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				30B7BA6B25AEA9AF005EF33E /* UIActivityIndicatorView+Extension.swift */,
+				30B7BA6825AEA99A005EF33E /* UIColor+Extension.swift */,
+				30B7BA6525AEA979005EF33E /* LabelCell.swift */,
+				30B7BA5C25AEA8AF005EF33E /* SpinnerCell.swift */,
+				30B7BA5825AEA829005EF33E /* DictionaryViewController.swift */,
+				30B7BA5F25AEA8C9005EF33E /* LabelSectionController.swift */,
+				30B7BA6225AEA946005EF33E /* IGListCollectionContext+Refinements.swift */,
+			);
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		30B7BA8E25B03924005EF33E /* CRRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				30B7BA8F25B03924005EF33E /* CRRefreshAnimator.swift */,
+				30B7BA9025B03924005EF33E /* UIColorExtension.swift */,
+				30B7BA9125B03924005EF33E /* Animators */,
+				30B7BAA525B03924005EF33E /* CRRefreshBundle.swift */,
+				30B7BAA625B03924005EF33E /* CRRefreshHeaderView.swift */,
+				30B7BAA725B03924005EF33E /* CRRefreshExtension.swift */,
+				30B7BAA825B03924005EF33E /* CRRefreshProtocol.swift */,
+				30B7BAA925B03924005EF33E /* CRRefreshComponent.swift */,
+				30B7BAAA25B03924005EF33E /* CRRefreshFooterView.swift */,
+			);
+			path = CRRefresh;
+			sourceTree = "<group>";
+		};
+		30B7BA9125B03924005EF33E /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				30B7BA9225B03924005EF33E /* RamotionAnimator */,
+				30B7BA9725B03924005EF33E /* SlackLoadingAnimator */,
+				30B7BA9A25B03924005EF33E /* FastAnimator */,
+				30B7BAA025B03924005EF33E /* NormalAnimator */,
+			);
+			path = Animators;
+			sourceTree = "<group>";
+		};
+		30B7BA9225B03924005EF33E /* RamotionAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				30B7BA9325B03924005EF33E /* RamotionBounceLayer.swift */,
+				30B7BA9425B03924005EF33E /* RamotionAnimator.swift */,
+				30B7BA9525B03924005EF33E /* RamotionWaveLayer.swift */,
+				30B7BA9625B03924005EF33E /* RamotionBallLayer.swift */,
+			);
+			path = RamotionAnimator;
+			sourceTree = "<group>";
+		};
+		30B7BA9725B03924005EF33E /* SlackLoadingAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				30B7BA9825B03924005EF33E /* SlackLoadingAnimator.swift */,
+				30B7BA9925B03924005EF33E /* WCLLoadingView.swift */,
+			);
+			path = SlackLoadingAnimator;
+			sourceTree = "<group>";
+		};
+		30B7BA9A25B03924005EF33E /* FastAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				30B7BA9B25B03924005EF33E /* FastAnimator.swift */,
+				30B7BA9C25B03924005EF33E /* FastLayer.swift */,
+				30B7BA9D25B03924005EF33E /* FastArrowLayer.swift */,
+				30B7BA9E25B03924005EF33E /* FastCheckLayer.swift */,
+				30B7BA9F25B03924005EF33E /* FastCircleLayer.swift */,
+			);
+			path = FastAnimator;
+			sourceTree = "<group>";
+		};
+		30B7BAA025B03924005EF33E /* NormalAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				30B7BAA125B03924005EF33E /* NormalHeader.bundle */,
+				30B7BAA225B03924005EF33E /* NormalHeaderAnimator.swift */,
+				30B7BAA325B03924005EF33E /* NormalFooterAnimator.swift */,
+				30B7BAA425B03924005EF33E /* NormalFooter.bundle */,
+			);
+			path = NormalAnimator;
+			sourceTree = "<group>";
+		};
 		30D832C22582054D000429D8 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +268,7 @@
 		30D832CD2582054D000429D8 /* HYHotPotForSwift */ = {
 			isa = PBXGroup;
 			children = (
+				30B7BA8E25B03924005EF33E /* CRRefresh */,
 				303024F1259440B8002DAD5B /* HandyJSON */,
 				30DAFF452592DB6C00D8F8FB /* Module */,
 				30DAFF2E2592D9E600D8F8FB /* Common */,
@@ -150,6 +297,7 @@
 		30DAFF452592DB6C00D8F8FB /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				30B7BA5725AEA81A005EF33E /* Dictionary */,
 				3070A65125958A22008FAE81 /* Lab */,
 				30DAFF4B2592DBE800D8F8FB /* Mine */,
 				30DAFF462592DB8600D8F8FB /* Home */,
@@ -161,6 +309,7 @@
 			isa = PBXGroup;
 			children = (
 				30DAFF472592DBD300D8F8FB /* HomeViewController.swift */,
+				3038B5AA25B6E3A60015726B /* HomeListSectionController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -251,7 +400,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				30D832DB2582054F000429D8 /* LaunchScreen.storyboard in Resources */,
+				30B7BAB825B03924005EF33E /* NormalHeader.bundle in Resources */,
 				30D832D82582054F000429D8 /* Assets.xcassets in Resources */,
+				30B7BABB25B03924005EF33E /* NormalFooter.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,21 +455,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30B7BA6925AEA99A005EF33E /* UIColor+Extension.swift in Sources */,
+				30B7BABF25B03924005EF33E /* CRRefreshProtocol.swift in Sources */,
+				30B7BAAF25B03924005EF33E /* RamotionWaveLayer.swift in Sources */,
+				30B7BAB725B03924005EF33E /* FastCircleLayer.swift in Sources */,
+				3038B5AB25B6E3A60015726B /* HomeListSectionController.swift in Sources */,
+				30B7BAC025B03924005EF33E /* CRRefreshComponent.swift in Sources */,
 				303024F3259440EB002DAD5B /* User.swift in Sources */,
+				30B7BAB025B03924005EF33E /* RamotionBallLayer.swift in Sources */,
 				30921CC02592F46000F9E968 /* HPTableView.swift in Sources */,
 				30DAFF5A2592EEC700D8F8FB /* RootViewController.swift in Sources */,
+				30B7BAB225B03924005EF33E /* WCLLoadingView.swift in Sources */,
+				30B7BAAB25B03924005EF33E /* CRRefreshAnimator.swift in Sources */,
 				30C68D6825A41371005391B3 /* SwiftLanguageMapAndFilterViewController.swift in Sources */,
+				30B7BAB125B03924005EF33E /* SlackLoadingAnimator.swift in Sources */,
 				30D832D32582054D000429D8 /* ViewController.swift in Sources */,
 				306E4B6E258734D6006B450F /* CCallSwift.c in Sources */,
 				30921CC3259335BB00F9E968 /* HPCommonTableViewController.swift in Sources */,
 				30DAFF562592EC9000D8F8FB /* SceneDelegate.swift in Sources */,
+				30B7BA6025AEA8C9005EF33E /* LabelSectionController.swift in Sources */,
+				30B7BAAC25B03924005EF33E /* UIColorExtension.swift in Sources */,
+				30B7BAB625B03924005EF33E /* FastCheckLayer.swift in Sources */,
+				30B7BA6325AEA946005EF33E /* IGListCollectionContext+Refinements.swift in Sources */,
 				30DAFF4D2592DC0F00D8F8FB /* MineViewController.swift in Sources */,
 				30D832CF2582054D000429D8 /* AppDelegate.swift in Sources */,
+				30B7BAAE25B03924005EF33E /* RamotionAnimator.swift in Sources */,
 				30DAFF482592DBD300D8F8FB /* HomeViewController.swift in Sources */,
+				30B7BABA25B03924005EF33E /* NormalFooterAnimator.swift in Sources */,
+				30B7BAB425B03924005EF33E /* FastLayer.swift in Sources */,
+				30B7BAC125B03924005EF33E /* CRRefreshFooterView.swift in Sources */,
 				3070A65925958ACB008FAE81 /* SQLiteLabViewController.swift in Sources */,
+				30B7BAB325B03924005EF33E /* FastAnimator.swift in Sources */,
 				30DAFF432592DB1200D8F8FB /* MainTabBarController.swift in Sources */,
+				30B7BABC25B03924005EF33E /* CRRefreshBundle.swift in Sources */,
 				306E4B6D258734D6006B450F /* GTMBase64.m in Sources */,
+				30B7BA6C25AEA9AF005EF33E /* UIActivityIndicatorView+Extension.swift in Sources */,
+				30B7BA5925AEA829005EF33E /* DictionaryViewController.swift in Sources */,
+				30B7BAB925B03924005EF33E /* NormalHeaderAnimator.swift in Sources */,
+				30B7BABD25B03924005EF33E /* CRRefreshHeaderView.swift in Sources */,
 				306E4B6C258734D6006B450F /* CommonCryptoBridge.m in Sources */,
+				30B7BA6625AEA979005EF33E /* LabelCell.swift in Sources */,
+				30B7BABE25B03924005EF33E /* CRRefreshExtension.swift in Sources */,
+				30B7BAAD25B03924005EF33E /* RamotionBounceLayer.swift in Sources */,
+				30B7BA5D25AEA8AF005EF33E /* SpinnerCell.swift in Sources */,
+				30B7BAB525B03924005EF33E /* FastArrowLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

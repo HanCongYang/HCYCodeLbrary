@@ -220,16 +220,16 @@
 //
 //    [HYKeyboardManager closeAllKeyboard];
 //
-//    [self firstLogin].then(^(NSDictionary *json) {
-//
-//        return [self relogin];
-//    }).then(^(NSString *string) {
-//        NSLog(@"%@", string);
-//        return [self checkNeedAlterView];
-//    }).then(^(NSString *string) {
-//        NSLog(@"hello promiseKit");
-//    });
-//
+    [self firstLogin].then(^(NSDictionary *json) {
+
+        return [self relogin];
+    }).then(^(NSString *string) {
+        NSLog(@"%@", string);
+        return [self checkNeedAlterView];
+    }).then(^(NSString *string) {
+        NSLog(@"hello promiseKit");
+    });
+
 //    self.tableView = [[UITableView alloc] init];
 //    self.tableView.delegate = self;
 //    self.tableView.dataSource = self;

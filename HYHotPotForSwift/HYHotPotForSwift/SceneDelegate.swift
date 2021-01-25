@@ -31,7 +31,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func viewControllers() -> [UINavigationController]{
-        let home = UINavigationController(rootViewController: HomeViewController("fucking init"))
+        let home = UINavigationController(rootViewController: HomeViewController())
         let mine = UINavigationController(rootViewController: MineViewController())
         let viewControllers = [home, mine]
         

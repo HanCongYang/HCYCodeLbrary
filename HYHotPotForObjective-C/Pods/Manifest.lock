@@ -14,6 +14,9 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.7.0):
+    - CocoaLumberjack/Core (= 3.7.0)
+  - CocoaLumberjack/Core (3.7.0)
   - CYLTabBarController (1.29.0):
     - CYLTabBarController/Core (= 1.29.0)
   - CYLTabBarController/Core (1.29.0)
@@ -350,6 +353,8 @@ PODS:
   - QMUIKit/QMUIResources (4.2.1)
   - QMUIKit/QMUIWeakObjectContainer (4.2.1)
   - ReactiveObjC (3.1.1)
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
   - YTKNetwork (3.0.4):
     - AFNetworking/NSURLSession (~> 4.0)
   - YYKit (1.0.9):
@@ -366,12 +371,14 @@ DEPENDENCIES:
   - PromiseKit
   - QMUIKit
   - ReactiveObjC
+  - SVGKit
   - YTKNetwork
   - YYKit
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - CocoaLumberjack
     - CYLTabBarController
     - FDStackView
     - IGListDiffKit
@@ -381,11 +388,13 @@ SPEC REPOS:
     - PromiseKit
     - QMUIKit
     - ReactiveObjC
+    - SVGKit
     - YTKNetwork
     - YYKit
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
   CYLTabBarController: f5460b8446f82d016945d4d53895a1ef185b79e3
   FDStackView: fc0697e5be2022c8af36ce66e9e2061006058ba8
   IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
@@ -395,9 +404,10 @@ SPEC CHECKSUMS:
   PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
   QMUIKit: 15294d6a350466e4a6f4df0333eac5bff474f995
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
   YTKNetwork: a096f80c18c7e7cc0e623a0fbea0a1bfd3f5bcf2
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: b065dd8fddc642d6d7e671804aac0988ebb28747
+PODFILE CHECKSUM: 0f7b970f65c4b0dea25d94a1b0f789ac3e936b07
 
 COCOAPODS: 1.9.3

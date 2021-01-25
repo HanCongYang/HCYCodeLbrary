@@ -15,5 +15,7 @@ target 'HYHotPotForSwift' do
   pod 'SQLite.swift'
   pod 'RainbowSwift'
   pod 'IGListKit'
+  pod 'pop'
+  pod 'SwiftEntryKit'
   
 end

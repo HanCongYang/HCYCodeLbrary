@@ -15,5 +15,6 @@ target 'HYHotPotForObjective-C' do
   pod 'IGListKit'
   pod 'MJRefresh'
   pod 'IGListKit'
+  pod 'SVGKit'
   
 end

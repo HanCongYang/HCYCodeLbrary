@@ -21,6 +21,7 @@ PODS:
   - LoggerAPI (1.9.200):
     - Logging (~> 1.1)
   - Logging (1.4.0)
+  - pop (1.0.12)
   - PromiseKit (6.13.1):
     - PromiseKit/CorePromise (= 6.13.1)
     - PromiseKit/Foundation (= 6.13.1)
@@ -347,6 +348,7 @@ PODS:
     - QMUIKit/QMUILog
   - QMUIKit/QMUIResources (4.2.1)
   - QMUIKit/QMUIWeakObjectContainer (4.2.1)
+  - QuickLayout (3.0.0)
   - RainbowSwift (3.2.0)
   - ReadWriteLock (1.0.2)
   - RxCocoa (5.1.1):
@@ -359,6 +361,8 @@ PODS:
   - SQLite.swift (0.12.2):
     - SQLite.swift/standard (= 0.12.2)
   - SQLite.swift/standard (0.12.2)
+  - SwiftEntryKit (1.2.7):
+    - QuickLayout (= 3.0.0)
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
@@ -367,6 +371,7 @@ DEPENDENCIES:
   - ElastosDIDSDK
   - HandyJSON
   - IGListKit
+  - pop
   - PromiseKit
   - QMUIKit
   - RainbowSwift
@@ -374,6 +379,7 @@ DEPENDENCIES:
   - RxSwift
   - SnapKit
   - SQLite.swift
+  - SwiftEntryKit
   - SwiftyJSON
 
 SPEC REPOS:
@@ -389,8 +395,10 @@ SPEC REPOS:
     - KituraContracts
     - LoggerAPI
     - Logging
+    - pop
     - PromiseKit
     - QMUIKit
+    - QuickLayout
     - RainbowSwift
     - ReadWriteLock
     - RxCocoa
@@ -398,6 +406,7 @@ SPEC REPOS:
     - RxSwift
     - SnapKit
     - SQLite.swift
+    - SwiftEntryKit
     - SwiftyJSON
 
 SPEC CHECKSUMS:
@@ -412,8 +421,10 @@ SPEC CHECKSUMS:
   KituraContracts: e845e60dc8627ad0a76fa55ef20a45451d8f830b
   LoggerAPI: ad9c4a6f1e32f518fdb43a1347ac14d765ab5e3d
   Logging: beeb016c9c80cf77042d62e83495816847ef108b
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
   QMUIKit: 15294d6a350466e4a6f4df0333eac5bff474f995
+  QuickLayout: 07b45a72b10083fee3f095990cfed1c1e7b27f0a
   RainbowSwift: 97eea9ffebcfeb9f9c3a4c0cabf9ff2684c2b588
   ReadWriteLock: 530a9204257f782636562f337cefb5469ce9900d
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
@@ -421,8 +432,9 @@ SPEC CHECKSUMS:
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  SwiftEntryKit: 537c92699d6034efb1ef9c32b11e0b37c97aa589
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: e712ef8b536dd9696ff2123726351cbb82406c6e
+PODFILE CHECKSUM: 9b2f7439c15554896d0ddbbb6d2f4985c8202eb5
 
 COCOAPODS: 1.9.3
