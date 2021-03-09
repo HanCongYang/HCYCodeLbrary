@@ -22,6 +22,15 @@
 #import "HYIntroModel.h"
 #import "IGListViewController.h"
 #import "ObjcDemoViewController.h"
+#import "HYSpecifyTheRatioStackCell.h"
+#import "HYSpecifyIntrinsicContentView.h"
+#import "HYImageView.h"
+#import "HYSpecifyContentSizeStackView.h"
+#import "HYUIButton.h"
+#import "HYUISegmentedControl.h"
+#import "HYSpecifyTheRatioStackCell.h"
+#import "HYUILabel.h"
+#import "SLHomeIconStackCell.h"
 
 @interface UIView (SL)
 
@@ -56,101 +65,189 @@
 
 @implementation ViewController
 
+- (void)addTestStackView {
+    
+    self.stackView = [[HYStackView alloc] init];
+
+    
+    HYUISegmentedControl *control = [[HYUISegmentedControl alloc] init];
+    control.axis = UILayoutConstraintAxisHorizontal;
+    control.isSingleChoice = YES;
+    control.spacing = 20;
+    control.distribution = UIStackViewDistributionFillEqually;
+    control.contentSize = CGSizeMake(UIScreen.mainScreen.bounds.size.width - 40, 50);
+
+    
+    HYUIButton *buttonA = [[HYUIButton alloc] init];
+    buttonA.title = @"巡访";
+    buttonA.selectedColor = UIColor.redColor;
+    buttonA.unSelectedColor = UIColor.whiteColor;
+    buttonA.selectedTextColor = UIColor.whiteColor;
+    buttonA.unSelectedTextColor = UIColor.redColor;
+    
+    HYUIButton *buttonB = [[HYUIButton alloc] init];
+    buttonB.title = @"营销";
+    buttonB.selectedColor = UIColor.redColor;
+    buttonB.unSelectedColor = UIColor.whiteColor;
+    buttonB.selectedTextColor = UIColor.whiteColor;
+    buttonB.unSelectedTextColor = UIColor.redColor;
+
+    
+    HYUIButton *buttonC = [[HYUIButton alloc] init];
+    buttonC.title = @"服务";
+    buttonC.selectedColor = UIColor.redColor;
+    buttonC.unSelectedColor = UIColor.whiteColor;
+    buttonC.selectedTextColor = UIColor.whiteColor;
+    buttonC.unSelectedTextColor = UIColor.redColor;
+
+
+    [control appends:@[
+        buttonA,
+        buttonB,
+        buttonC]];
+    
+    [self.stackView addArrangedSubview:control];
+
+    
+    HYSpecifyTheRatioStackCell *titleStackCell = [[HYSpecifyTheRatioStackCell alloc] init];
+    titleStackCell.contentSize = CGSizeMake(UIScreen.mainScreen.bounds.size.width - 40, 90);
+    titleStackCell.axis = UILayoutConstraintAxisHorizontal;
+    
+    HYUILabel *title = [[HYUILabel alloc] init];
+    title.text = @"HYHotPotForObjective-C";
+    title.numberOfLines = 0;
+    
+    SLHomeIconStackCell *c1 = [[SLHomeIconStackCell alloc] init];
+    SLHomeIconStackCell *c2 = [[SLHomeIconStackCell alloc] init];
+    SLHomeIconStackCell *c3 = [[SLHomeIconStackCell alloc] init];
+
+    [titleStackCell appends:@[title, c1, c2, c3].mutableCopy];
+    titleStackCell.specifyTheRatios = @[@(4), @(1), @(1), @(1)].mutableCopy;
+    [titleStackCell startLayout];
+    [self.stackView addArrangedSubview:titleStackCell];
+    
+    
+    
+//    c.contentSize = CGSizeMake(UIScreen.mainScreen.bounds.size.width - 40, 200);
+//    HYSpecifyIntrinsicContentView *v1 = [[HYSpecifyIntrinsicContentView alloc] init];
+//    v1.contentSize = CGSizeMake(100, 50);
+//    v1.backgroundColor = UIColor.redColor;
+//    HYSpecifyIntrinsicContentView *v2 = [[HYSpecifyIntrinsicContentView alloc] init];
+//    v2.backgroundColor = UIColor.blackColor;
+//    v2.contentSize = CGSizeMake(100, 100);
+////    HYSpecifyIntrinsicContentView *v3 = [[HYSpecifyIntrinsicContentView alloc] init];
+////    v3.backgroundColor = UIColor.blueColor;
+////    c.backgroundColor = UIColor.purpleColor;
+//
+//    HYImageView *v3 = [[HYImageView alloc] init];
+//    v3.contentSize = CGSizeMake(100, 200);
+//    v3.imageEdgeInsets = UIEdgeInsetsMake(20, 20, 20, 20);
+//
+//    c.arrangedSubviews = @[v1, v2, v3].mutableCopy;
+//    c.specifyTheRatios = @[@(2), @(1), @(3)].mutableCopy;
+//    [c startLayout];
+//    [self.stackView addArrangedSubview:c];
+
+
+    [self.view addSubview:self.stackView];
+    ThreeColumnTestView *v = SLCreateView(ThreeColumnTestView);
+    v.detailLabel.text = @"11111111111\n11111111111\n";
+    v.titleLabel.text = @"11111111111\n11111111111\n11111111111\nnw_protocol_get_quic_image_block_invokenw_protocol_get_quic_image_block_invokenw_protocol_get_quic_image_block_invokenw_protocol_get_quic_image_block_invokenw_protocol_get_quic_image_block_invoke";
+    [self.stackView addArrangedSubview:v];
+    [self.stackView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.mas_equalTo(self.view).mas_offset(UIEdgeInsetsMake(80, 20, 20, 20));
+    }];
+
+    QMUILabel *qmLabel = [[QMUILabel alloc] init];
+    qmLabel.text = @"Text";
+    qmLabel.backgroundColor = UIColor.systemPinkColor;
+    qmLabel.contentEdgeInsets = UIEdgeInsetsMake(40, 40, 40, 40);
+    [self.stackView addArrangedSubview:qmLabel];
+
+    {
+
+        UIStackView *stack = [[UIStackView alloc] init];
+
+        QMUILabel *qmLabel = [[QMUILabel alloc] init];
+        qmLabel.text = @"Label on Stack";
+        qmLabel.backgroundColor = UIColor.systemPinkColor;
+        qmLabel.contentEdgeInsets = UIEdgeInsetsMake(40, 40, 40, 40);
+        [stack addArrangedSubview:qmLabel];
+        [self.stackView addArrangedSubview:stack];
+    }
+
+    HYTitleView *t1 = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([HYTitleView class])
+                                                    owner:nil
+                                                  options:nil].lastObject;
+
+    HYTitleView *t2 = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([HYTitleView class])
+                                                    owner:nil
+                                                  options:nil].lastObject;
+
+    HYEdgeInsetView *inset = [[HYEdgeInsetView alloc] init];
+    inset.leading = 100;
+    [inset.stack addArrangedSubview:t1];
+    [inset.stack addArrangedSubview:t2];
+    [self.stackView addArrangedSubview:inset];
+
+    UIStackView *stack = [[UIStackView alloc] init];
+    stack.spacing = 10;
+
+    stack.distribution = UIStackViewDistributionEqualCentering;
+    stack.alignment = UIStackViewAlignmentLeading;
+    stack.axis = UILayoutConstraintAxisHorizontal;
+    QMUILabel *qmLabel1 = [[QMUILabel alloc] init];
+    stack.translatesAutoresizingMaskIntoConstraints = NO;
+
+    qmLabel1.text = @"XXX创建1";
+    [stack addArrangedSubview:qmLabel1];
+
+    QMUILabel *qmLabel2 = [[QMUILabel alloc] init];
+    qmLabel2.text = @"XXX创建2";
+    [stack addArrangedSubview:qmLabel2];
+
+    UIView *spacer = [[UIView alloc] init];
+    [spacer setContentHuggingPriority:(UILayoutPriorityDefaultLow) forAxis:(UILayoutConstraintAxisHorizontal)];
+    [stack addArrangedSubview:spacer];
+
+
+//
+    [self.stackView addArrangedSubview:stack];
+
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.tableViewDataSources = @[
-     [HYIntroModel modelWithTitle:@"Collection View" detailIntro:@"Collection View统一解决方案"],
-    ].mutableCopy;
-    
-    self.tableView = [[UITableView alloc] init];
-    self.tableView.delegate = self;
-    self.tableView.dataSource = self;
-    self.tableView.estimatedRowHeight = 60;
-    self.tableView.rowHeight = UITableViewAutomaticDimension;
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    self.tableView.backgroundColor = UIColor.whiteColor;
-    [self.view addSubview:self.tableView];
-    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.mas_equalTo(self.view);
-    }];
-    
-    UINib * nib =[UINib nibWithNibName:NSStringFromClass(HYIntroTableViewCell.class) bundle:nil];
-    [self.tableView registerNib:nib forCellReuseIdentifier:@"cell"];
-    
-//    self.stackView = [[HYStackView alloc] init];
-//    [self.view addSubview:self.stackView];
-//    ThreeColumnTestView *v = SLCreateView(ThreeColumnTestView);
-//    v.detailLabel.text = @"11111111111\n11111111111\n";
-//    v.titleLabel.text = @"11111111111\n11111111111\n11111111111\nnw_protocol_get_quic_image_block_invokenw_protocol_get_quic_image_block_invokenw_protocol_get_quic_image_block_invokenw_protocol_get_quic_image_block_invokenw_protocol_get_quic_image_block_invoke";
-//    [self.stackView addArrangedSubview:v];
-//    [self.stackView mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.edges.mas_equalTo(self.view).mas_offset(UIEdgeInsetsMake(80, 20, 20, 20));
+    [self addTestStackView];
+//    self.tableViewDataSources = @[
+//     [HYIntroModel modelWithTitle:@"Collection View" detailIntro:@"Collection View统一解决方案"],
+//    ].mutableCopy;
+//
+//    self.tableView = [[UITableView alloc] init];
+//    self.tableView.delegate = self;
+//    self.tableView.dataSource = self;
+//    self.tableView.estimatedRowHeight = 60;
+//    self.tableView.rowHeight = UITableViewAutomaticDimension;
+//    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+//    self.tableView.backgroundColor = UIColor.whiteColor;
+//    [self.view addSubview:self.tableView];
+//    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.edges.mas_equalTo(self.view);
 //    }];
 //
-//    QMUILabel *qmLabel = [[QMUILabel alloc] init];
-//    qmLabel.text = @"Text";
-//    qmLabel.backgroundColor = UIColor.systemPinkColor;
-//    qmLabel.contentEdgeInsets = UIEdgeInsetsMake(40, 40, 40, 40);
-//    [self.stackView addArrangedSubview:qmLabel];
+//    UINib * nib =[UINib nibWithNibName:NSStringFromClass(HYIntroTableViewCell.class) bundle:nil];
+//    [self.tableView registerNib:nib forCellReuseIdentifier:@"cell"];
 //
-//    {
+    
+
+//    [self.view addSubview:inset];
+//    [inset mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.right.mas_equalTo(self.view);
+//        make.top.mas_equalTo(self.floatLayoutView.mas_bottom);
+//    }];
 //
-//        UIStackView *stack = [[UIStackView alloc] init];
-//
-//        QMUILabel *qmLabel = [[QMUILabel alloc] init];
-//        qmLabel.text = @"Label on Stack";
-//        qmLabel.backgroundColor = UIColor.systemPinkColor;
-//        qmLabel.contentEdgeInsets = UIEdgeInsetsMake(40, 40, 40, 40);
-//        [stack addArrangedSubview:qmLabel];
-//        [self.stackView addArrangedSubview:stack];
-//    }
-//
-//    HYTitleView *t1 = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([HYTitleView class])
-//                                                    owner:nil
-//                                                  options:nil].lastObject;
-//
-//    HYTitleView *t2 = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([HYTitleView class])
-//                                                    owner:nil
-//                                                  options:nil].lastObject;
-//
-//    HYEdgeInsetView *inset = [[HYEdgeInsetView alloc] init];
-//    inset.leading = 100;
-//    [inset.stack addArrangedSubview:t1];
-//    [inset.stack addArrangedSubview:t2];
-//    [self.stackView addArrangedSubview:inset];
-//
-//    UIStackView *stack = [[UIStackView alloc] init];
-//    stack.spacing = 10;
-//
-////    stack.distribution = UIStackViewDistributionEqualCentering;
-////    stack.alignment = UIStackViewAlignmentLeading;
-////    stack.axis = UILayoutConstraintAxisHorizontal;
-//    QMUILabel *qmLabel1 = [[QMUILabel alloc] init];
-//    stack.translatesAutoresizingMaskIntoConstraints = NO;
-//
-//    qmLabel1.text = @"XXX创建1";
-//    [stack addArrangedSubview:qmLabel1];
-//
-//    QMUILabel *qmLabel2 = [[QMUILabel alloc] init];
-//    qmLabel2.text = @"XXX创建2";
-//    [stack addArrangedSubview:qmLabel2];
-//
-//    UIView *spacer = [[UIView alloc] init];
-//    [spacer setContentHuggingPriority:(UILayoutPriorityDefaultLow) forAxis:(UILayoutConstraintAxisHorizontal)];
-//    [stack addArrangedSubview:spacer];
-//
-//
-//
-//    [self.stackView addArrangedSubview:stack];
-//
-//
-////    [self.view addSubview:inset];
-////    [inset mas_makeConstraints:^(MASConstraintMaker *make) {
-////        make.left.right.mas_equalTo(self.view);
-////        make.top.mas_equalTo(self.floatLayoutView.mas_bottom);
-////    }];
-////
 //    return;
 //
 //
@@ -221,15 +318,15 @@
 //
 //    [HYKeyboardManager closeAllKeyboard];
 //
-    [self firstLogin].then(^(NSDictionary *json) {
-
-        return [self relogin];
-    }).then(^(NSString *string) {
-        NSLog(@"%@", string);
-        return [self checkNeedAlterView];
-    }).then(^(NSString *string) {
-        NSLog(@"hello promiseKit");
-    });
+//    [self firstLogin].then(^(NSDictionary *json) {
+//
+//        return [self relogin];
+//    }).then(^(NSString *string) {
+//        NSLog(@"%@", string);
+//        return [self checkNeedAlterView];
+//    }).then(^(NSString *string) {
+//        NSLog(@"hello promiseKit");
+//    });
 
 //    self.tableView = [[UITableView alloc] init];
 //    self.tableView.delegate = self;
@@ -244,6 +341,10 @@
 //    }];
 //    [self.tableView registerClass:HYStackTableViewCell.class forCellReuseIdentifier:@"cell"];
 //
+    
+    
+    
+
 //    /**
 //    * 元祖
 //    * 快速包装一个元组
@@ -258,15 +359,17 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.tableViewDataSources.count;
+    return 3;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    HYIntroTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
-    [cell receive:RACTuplePack(self.tableViewDataSources[indexPath.row]) context:@"从首页进入"];
+    HYStackTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+//    [cell receive:RACTuplePack(self.tableViewDataSources[indexPath.row]) context:@"从首页进入"];
     return cell;
 }
+
+
 
 - (AnyPromise *)checkNeedAlterView {
     
@@ -320,11 +423,14 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    if (indexPath.row == 0) {
-        
-        ObjcDemoViewController *list = [[ObjcDemoViewController alloc] init];
-        [self.navigationController pushViewController:list animated:YES];
-    }
+    HYStackTableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+    [cell removeSubViewAtIndex:0];
+    [tableView reloadData];
+//    if (indexPath.row == 0) {
+//
+//        ObjcDemoViewController *list = [[ObjcDemoViewController alloc] init];
+//        [self.navigationController pushViewController:list animated:YES];
+//    }
 }
 
 

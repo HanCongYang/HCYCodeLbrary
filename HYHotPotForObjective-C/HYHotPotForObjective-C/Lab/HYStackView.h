@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HYStackView : UIScrollView
 
-@property (nonatomic, strong) FDStackView *stackView;
+@property (nonatomic, strong) UIStackView *stackView;
 /*
 默认值为YES，如果要stackview上的某个输入框输入的时候 不是stackview滚动而是stackview的背景视图滚动 需要吧这个值设置为NO,用于解决stackview上的输入框因为滚动不够导致的键盘遮挡问题
 */

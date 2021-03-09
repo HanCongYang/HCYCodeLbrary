@@ -14,7 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HYStackTableViewCell : UITableViewCell
 
-@property (nonatomic, strong) FDStackView *stack;
+- (void)append:(UIView *)view;
+- (void)removeSubViewAtIndex:(NSUInteger)index;
 
 @end
 

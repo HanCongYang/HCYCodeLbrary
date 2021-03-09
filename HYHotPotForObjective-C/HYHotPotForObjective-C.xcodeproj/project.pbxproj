@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		300EC81625870D970098D812 /* CommonCryptoBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 300EC81125870D970098D812 /* CommonCryptoBridge.m */; };
 		300EC81725870D970098D812 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 300EC81425870D970098D812 /* GTMBase64.m */; };
+		301C149725F1D10500602BDF /* HYUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 301C149625F1D10500602BDF /* HYUIButton.m */; };
+		301C149B25F1D32F00602BDF /* HYSpecifyContentSizeStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 301C149A25F1D32F00602BDF /* HYSpecifyContentSizeStackView.m */; };
+		301C149F25F1D8C500602BDF /* HYUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 301C149E25F1D8C500602BDF /* HYUISegmentedControl.m */; };
+		301C14A725F1E85D00602BDF /* SLHomeIconStackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 301C14A625F1E85D00602BDF /* SLHomeIconStackCell.m */; };
+		301C14AB25F1E89900602BDF /* HYUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 301C14AA25F1E89900602BDF /* HYUIImageView.m */; };
+		301C14C225F1ED9D00602BDF /* HYUIFontUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 301C14C125F1ED9D00602BDF /* HYUIFontUtils.m */; };
 		303025672594BB5E002DAD5B /* ThreeColumnTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 303025662594BB5E002DAD5B /* ThreeColumnTestView.m */; };
 		3030256A2594BB69002DAD5B /* ThreeColumnTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 303025692594BB69002DAD5B /* ThreeColumnTestView.xib */; };
 		306E4C0B2588A44E006B450F /* HYKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E4C0A2588A44E006B450F /* HYKeyboardManager.m */; };
@@ -32,6 +38,10 @@
 		30923914259B169C004A0B7B /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3092390E259B1699004A0B7B /* PhotoCell.m */; };
 		30923915259B169C004A0B7B /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30923910259B169A004A0B7B /* CommentCell.m */; };
 		30923916259B169C004A0B7B /* UserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30923911259B169B004A0B7B /* UserInfoCell.m */; };
+		30BA14E925EF3EE300EB3384 /* HYSpecifyTheRatioStackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA14E825EF3EE300EB3384 /* HYSpecifyTheRatioStackCell.m */; };
+		30BA14F825EF426000EB3384 /* HYSpecifyIntrinsicContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA14F725EF426000EB3384 /* HYSpecifyIntrinsicContentView.m */; };
+		30BA14FC25EF53FA00EB3384 /* HYImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA14FB25EF53FA00EB3384 /* HYImageView.m */; };
+		30BA150025EF581900EB3384 /* HYUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA14FF25EF581900EB3384 /* HYUILabel.m */; };
 		30D832AA2582050C000429D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D832A92582050C000429D8 /* AppDelegate.m */; };
 		30D832B02582050C000429D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D832AF2582050C000429D8 /* ViewController.m */; };
 		30D832B52582050E000429D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D832B42582050E000429D8 /* Assets.xcassets */; };
@@ -46,6 +56,19 @@
 		300EC81325870D970098D812 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		300EC81425870D970098D812 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		300EC81525870D970098D812 /* CommonCryptoBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCryptoBridge.h; sourceTree = "<group>"; };
+		301C149525F1D10500602BDF /* HYUIButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYUIButton.h; sourceTree = "<group>"; };
+		301C149625F1D10500602BDF /* HYUIButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYUIButton.m; sourceTree = "<group>"; };
+		301C149925F1D32F00602BDF /* HYSpecifyContentSizeStackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYSpecifyContentSizeStackView.h; sourceTree = "<group>"; };
+		301C149A25F1D32F00602BDF /* HYSpecifyContentSizeStackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSpecifyContentSizeStackView.m; sourceTree = "<group>"; };
+		301C149D25F1D8C500602BDF /* HYUISegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYUISegmentedControl.h; sourceTree = "<group>"; };
+		301C149E25F1D8C500602BDF /* HYUISegmentedControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYUISegmentedControl.m; sourceTree = "<group>"; };
+		301C14A325F1D9C400602BDF /* HYStackCellDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYStackCellDelegate.h; sourceTree = "<group>"; };
+		301C14A525F1E85D00602BDF /* SLHomeIconStackCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHomeIconStackCell.h; sourceTree = "<group>"; };
+		301C14A625F1E85D00602BDF /* SLHomeIconStackCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHomeIconStackCell.m; sourceTree = "<group>"; };
+		301C14A925F1E89900602BDF /* HYUIImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYUIImageView.h; sourceTree = "<group>"; };
+		301C14AA25F1E89900602BDF /* HYUIImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYUIImageView.m; sourceTree = "<group>"; };
+		301C14C025F1ED9D00602BDF /* HYUIFontUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYUIFontUtils.h; sourceTree = "<group>"; };
+		301C14C125F1ED9D00602BDF /* HYUIFontUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYUIFontUtils.m; sourceTree = "<group>"; };
 		303025652594BB5E002DAD5B /* ThreeColumnTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeColumnTestView.h; sourceTree = "<group>"; };
 		303025662594BB5E002DAD5B /* ThreeColumnTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeColumnTestView.m; sourceTree = "<group>"; };
 		303025692594BB69002DAD5B /* ThreeColumnTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeColumnTestView.xib; sourceTree = "<group>"; };
@@ -89,6 +112,14 @@
 		30923910259B169A004A0B7B /* CommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCell.m; sourceTree = "<group>"; };
 		30923911259B169B004A0B7B /* UserInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoCell.m; sourceTree = "<group>"; };
 		30923912259B169C004A0B7B /* CommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCell.h; sourceTree = "<group>"; };
+		30BA14E725EF3EE300EB3384 /* HYSpecifyTheRatioStackCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYSpecifyTheRatioStackCell.h; sourceTree = "<group>"; };
+		30BA14E825EF3EE300EB3384 /* HYSpecifyTheRatioStackCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSpecifyTheRatioStackCell.m; sourceTree = "<group>"; };
+		30BA14F625EF426000EB3384 /* HYSpecifyIntrinsicContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYSpecifyIntrinsicContentView.h; sourceTree = "<group>"; };
+		30BA14F725EF426000EB3384 /* HYSpecifyIntrinsicContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSpecifyIntrinsicContentView.m; sourceTree = "<group>"; };
+		30BA14FA25EF53FA00EB3384 /* HYImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYImageView.h; sourceTree = "<group>"; };
+		30BA14FB25EF53FA00EB3384 /* HYImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYImageView.m; sourceTree = "<group>"; };
+		30BA14FE25EF581900EB3384 /* HYUILabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYUILabel.h; sourceTree = "<group>"; };
+		30BA14FF25EF581900EB3384 /* HYUILabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYUILabel.m; sourceTree = "<group>"; };
 		30D832A52582050C000429D8 /* HYHotPotForObjective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HYHotPotForObjective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D832A82582050C000429D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30D832A92582050C000429D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -162,6 +193,27 @@
 				306E4C882589F3F8006B450F /* HYTitleView.h */,
 				306E4C892589F3F8006B450F /* HYTitleView.m */,
 				306E4C8C2589F400006B450F /* HYTitleView.xib */,
+				301C14A925F1E89900602BDF /* HYUIImageView.h */,
+				301C14AA25F1E89900602BDF /* HYUIImageView.m */,
+				30BA14FA25EF53FA00EB3384 /* HYImageView.h */,
+				30BA14FB25EF53FA00EB3384 /* HYImageView.m */,
+				30BA14FE25EF581900EB3384 /* HYUILabel.h */,
+				30BA14FF25EF581900EB3384 /* HYUILabel.m */,
+				301C149525F1D10500602BDF /* HYUIButton.h */,
+				301C149625F1D10500602BDF /* HYUIButton.m */,
+				301C149D25F1D8C500602BDF /* HYUISegmentedControl.h */,
+				301C149E25F1D8C500602BDF /* HYUISegmentedControl.m */,
+				301C149925F1D32F00602BDF /* HYSpecifyContentSizeStackView.h */,
+				301C149A25F1D32F00602BDF /* HYSpecifyContentSizeStackView.m */,
+				301C14A525F1E85D00602BDF /* SLHomeIconStackCell.h */,
+				301C14A625F1E85D00602BDF /* SLHomeIconStackCell.m */,
+				30BA14F625EF426000EB3384 /* HYSpecifyIntrinsicContentView.h */,
+				30BA14F725EF426000EB3384 /* HYSpecifyIntrinsicContentView.m */,
+				30BA14E725EF3EE300EB3384 /* HYSpecifyTheRatioStackCell.h */,
+				30BA14E825EF3EE300EB3384 /* HYSpecifyTheRatioStackCell.m */,
+				301C14C025F1ED9D00602BDF /* HYUIFontUtils.h */,
+				301C14C125F1ED9D00602BDF /* HYUIFontUtils.m */,
+				301C14A325F1D9C400602BDF /* HYStackCellDelegate.h */,
 			);
 			name = Lab;
 			path = "HYHotPotForObjective-C/Lab";
@@ -408,26 +460,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BA14FC25EF53FA00EB3384 /* HYImageView.m in Sources */,
 				30923914259B169C004A0B7B /* PhotoCell.m in Sources */,
 				306E4C8A2589F3F8006B450F /* HYTitleView.m in Sources */,
 				30923905259B15F1004A0B7B /* ObjcDemoViewController.m in Sources */,
 				3092382E259B07F5004A0B7B /* HYIntroTableViewCell.m in Sources */,
+				30BA150025EF581900EB3384 /* HYUILabel.m in Sources */,
 				306E4C5925899C4E006B450F /* HYStackView.m in Sources */,
 				306E4C0B2588A44E006B450F /* HYKeyboardManager.m in Sources */,
 				30923909259B165D004A0B7B /* PostSectionController.m in Sources */,
+				30BA14F825EF426000EB3384 /* HYSpecifyIntrinsicContentView.m in Sources */,
+				301C14AB25F1E89900602BDF /* HYUIImageView.m in Sources */,
 				306E4C7F2589E4AF006B450F /* HYTestFloatLayoutView.m in Sources */,
 				30D832B02582050C000429D8 /* ViewController.m in Sources */,
+				301C14C225F1ED9D00602BDF /* HYUIFontUtils.m in Sources */,
 				300EC81725870D970098D812 /* GTMBase64.m in Sources */,
 				306E4C5E25899F15006B450F /* HYEdgeInsetView.m in Sources */,
 				303025672594BB5E002DAD5B /* ThreeColumnTestView.m in Sources */,
+				301C149B25F1D32F00602BDF /* HYSpecifyContentSizeStackView.m in Sources */,
 				30923916259B169C004A0B7B /* UserInfoCell.m in Sources */,
+				30BA14E925EF3EE300EB3384 /* HYSpecifyTheRatioStackCell.m in Sources */,
 				307031AC2595D407006799C8 /* ViewAddOnStackViewController.m in Sources */,
 				30923913259B169C004A0B7B /* InteractiveCell.m in Sources */,
 				30923838259B0FD4004A0B7B /* IGListViewController.m in Sources */,
 				30D832AA2582050C000429D8 /* AppDelegate.m in Sources */,
 				30D832BB2582050E000429D8 /* main.m in Sources */,
 				30923915259B169C004A0B7B /* CommentCell.m in Sources */,
+				301C14A725F1E85D00602BDF /* SLHomeIconStackCell.m in Sources */,
+				301C149725F1D10500602BDF /* HYUIButton.m in Sources */,
 				30923901259B15C5004A0B7B /* Post.m in Sources */,
+				301C149F25F1D8C500602BDF /* HYUISegmentedControl.m in Sources */,
 				306E4C202588A8EC006B450F /* HYLoginYBWPRequest.m in Sources */,
 				300EC81625870D970098D812 /* CommonCryptoBridge.m in Sources */,
 				30923834259B0CEC004A0B7B /* HYIntroModel.m in Sources */,

@@ -11,13 +11,25 @@
 
 @interface HYStackView ()
 
+@property (nonatomic, strong) UIView *contentView;
+
+
 @end
 
 @implementation HYStackView
 
-- (FDStackView *)stackView {
+- (UIView *)contentView {
+    
+    if (!_contentView) {
+        _contentView = [[UIView alloc] init];
+        _contentView.backgroundColor = UIColor.whiteColor;
+    }
+    return _contentView;
+}
+
+- (UIStackView *)stackView {
     if (!_stackView) {
-        _stackView = [[FDStackView alloc] init];
+        _stackView = [[UIStackView alloc] init];
         _stackView.axis = UILayoutConstraintAxisVertical;
         _stackView.distribution = UIStackViewDistributionEqualSpacing;
         _stackView.spacing = 0;
@@ -28,11 +40,19 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        [self addSubview:self.stackView];
-        [self.stackView mas_makeConstraints:^(MASConstraintMaker *make) {
+        [self addSubview:self.contentView];
+        [self.contentView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.equalTo(self);
             make.width.equalTo(self);
             make.height.mas_greaterThanOrEqualTo(44);
+        }];
+        
+        [self.contentView addSubview:self.stackView];
+//        [self.stackView setContentCompressionResistancePriority:(UILayoutPriorityDefaultLow) forAxis:(UILayoutConstraintAxisVertical)];
+        [self.stackView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.equalTo(self.contentView).priorityLow();
+//            make.width.equalTo(self);
+//            make.height.mas_greaterThanOrEqualTo(44);
         }];
     }
     return self;
